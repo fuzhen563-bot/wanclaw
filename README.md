@@ -7,12 +7,6 @@
 [![Tests](https://img.shields.io/badge/Tests-58%20passed-brightgreen.svg)]()
 
 ---
-
-**版权所有 © 2025-2026 厦门万岳科技有限公司**  
-**Copyright © 2025-2026 Xiamen Wanyue Technology Co., Ltd. All Rights Reserved.**
-
----
-
 ## 核心升级（V1.0 → V2.0）
 
 | 维度 | V1.0 | V2.0 |
@@ -378,8 +372,8 @@ MIT License — 可商用，可修改，可分发
 
 ---
 
-**版权所有 © 2025-2026 厦门万岳科技有限公司**  
-**Copyright © 2025-2026 Xiamen Wanyue Technology Co., Ltd. All Rights Reserved.**
+**版权所有 © 2026 厦门万岳科技有限公司**  
+**Copyright © 2026 Xiamen Wanyue Technology Co., Ltd. All Rights Reserved.**
 
 ---
 

@@ -7,11 +7,6 @@
 
 ---
 
-**版权所有 © 2025-2026 厦门万岳科技有限公司**  
-**Copyright © 2025-2026 Xiamen Wanyue Technology Co., Ltd. All Rights Reserved.**
-
----
-
 ## 官网
 
 - **首页**: `http://your-server:8000/`

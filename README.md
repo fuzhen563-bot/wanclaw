@@ -7,6 +7,8 @@
 [![Vue 3](https://img.shields.io/badge/Vue-3.4-blue.svg)](https://vuejs.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green.svg)](https://fastapi.tiangolo.com)
 
+使用教程：[详细使用教程](https://chans-organization-9.gitbook.io/yizikeji)
+
 ---
 
 **版权所有 © 2025-2026 厦门亦梓科技有限公司 / 厦门万跃科技有限公司**  

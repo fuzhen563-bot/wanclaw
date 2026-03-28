@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.ai_emotion_detect",
+  "plugin_name": "对话情绪识别",
+  "plugin_type": "skill",
+  "description": "分析买家/客户消息的情绪（愤怒/不满/满意/中性），自动标记高情绪客户优先处理",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "情绪识别",
+    "情感分析",
+    "AI",
+    "客服"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

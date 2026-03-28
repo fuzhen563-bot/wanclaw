@@ -1,0 +1,35 @@
+{
+  "plugin_id": "skill.batch_file_processor",
+  "plugin_name": "批量文件处理",
+  "plugin_type": "skill",
+  "description": "批量文件：批量转换格式、压缩解压、批量重命名、格式统一",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "批量",
+    "文件",
+    "转换",
+    "压缩",
+    "office"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "office"
+  ]
+}

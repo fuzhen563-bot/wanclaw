@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.ai_text_summary",
+  "plugin_name": "长文本自动摘要",
+  "plugin_type": "skill",
+  "description": "长篇文章、会议记录、报告自动摘要为关键要点，支持指定摘要长度",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "摘要",
+    "文章摘要",
+    "关键要点",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

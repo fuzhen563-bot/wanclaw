@@ -1,0 +1,38 @@
+{
+  "plugin_id": "wanclaw.office_multi_table_merge",
+  "plugin_name": "多表格自动汇总",
+  "plugin_type": "skill",
+  "description": "将多个结构相同或不同的表格按字段关联汇总，支持vlookup、数据透视",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "汇总",
+    "合并",
+    "表格",
+    "vlookup",
+    "办公"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [
+    "pandas",
+    "openpyxl"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "办公RPA"
+  ]
+}

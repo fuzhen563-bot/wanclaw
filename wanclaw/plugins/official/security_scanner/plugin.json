@@ -1,0 +1,33 @@
+{
+  "plugin_id": "skill.security_scanner",
+  "plugin_name": "安全扫描",
+  "plugin_type": "skill",
+  "description": "安全扫描：代码安全扫描、敏感信息检测、漏洞检测",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "security",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read"
+  ],
+  "keywords": [
+    "安全",
+    "扫描",
+    "漏洞",
+    "security"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "security"
+  ]
+}

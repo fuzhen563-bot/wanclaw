@@ -1,0 +1,25 @@
+{
+  "name": "ai_voice_clone",
+  "version": "2.0.0",
+  "description": "上传少量音频样本，克隆音色，输入文字即可用克隆声音朗读",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "声音克隆",
+    "TTS",
+    "语音合成",
+    "音色",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

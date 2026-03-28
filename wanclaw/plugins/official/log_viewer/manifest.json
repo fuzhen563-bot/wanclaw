@@ -1,0 +1,23 @@
+{
+  "name": "log_viewer",
+  "version": "2.0.0",
+  "description": "日志查看：日志搜索、实时tail、关键词过滤、日志分析",
+  "author": "WanClaw",
+  "category": "ops",
+  "keywords": [
+    "日志",
+    "log",
+    "查看",
+    "ops"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.data_agent_stats",
+  "plugin_name": "客服接待量实时报表",
+  "plugin_type": "skill",
+  "description": "客服的接待消息数、平均响应时长、好评率实时统计，生成个人/团队排行榜",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "data",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "database"
+  ],
+  "keywords": [
+    "客服统计",
+    "接待量",
+    "排行榜",
+    "客服"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "数据统计"
+  ]
+}

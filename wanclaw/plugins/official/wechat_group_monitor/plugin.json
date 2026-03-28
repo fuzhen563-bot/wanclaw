@@ -1,0 +1,33 @@
+{
+  "plugin_id": "skill.wechat_group_monitor",
+  "plugin_name": "微信群监控",
+  "plugin_type": "skill",
+  "description": "微信群监控：关键词提醒、新消息通知、群活跃度统计",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "marketing",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "微信",
+    "群",
+    "监控",
+    "marketing"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "marketing"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "health_checker",
+  "version": "2.0.0",
+  "description": "健康检查：检查磁盘空间、CPU、内存，异常自动告警",
+  "author": "WanClaw",
+  "category": "ops",
+  "keywords": [
+    "健康检查",
+    "系统",
+    "监控",
+    "ops"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "psutil"
+  ],
+  "permissions": [],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

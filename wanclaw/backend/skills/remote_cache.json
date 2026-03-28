@@ -1,0 +1,1341 @@
+{
+  "skills": {
+    "wanclaw.ec_order_remark": {
+      "name": "淘宝订单自动备注",
+      "version": "2.0.0",
+      "description": "淘宝/天猫订单自动识别买家留言并打标备注，支持关键词匹配、颜色尺码提取、发货时间承诺",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_order_remark",
+      "downloads": 0
+    },
+    "wanclaw.ec_refund_auto": {
+      "name": "拼多多售后自动退款",
+      "version": "2.0.0",
+      "description": "拼多多售后单自动审核，符合条件自动同意退款退货，异常单标记人工处理",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_refund_auto",
+      "downloads": 0
+    },
+    "wanclaw.ec_shipment_sync": {
+      "name": "抖店自动发货同步",
+      "version": "2.0.0",
+      "description": "抖音小店订单自动抓取、物流信息自动回填、发货状态自动同步至平台",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_shipment_sync",
+      "downloads": 0
+    },
+    "wanclaw.ec_product_auto_listing": {
+      "name": "商品自动上下架",
+      "version": "2.0.0",
+      "description": "多平台电商商品定时上下架、库存为0自动下架、活动结束自动恢复，支持淘宝/京东/拼多多/抖音",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_product_auto_listing",
+      "downloads": 0
+    },
+    "wanclaw.ec_order_close": {
+      "name": "超时订单自动关闭",
+      "version": "2.0.0",
+      "description": "电商平台超时未支付订单自动关闭，释放库存，支持自定义超时时间规则",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_order_close",
+      "downloads": 0
+    },
+    "wanclaw.ec_tracking_auto": {
+      "name": "物流单号自动识别",
+      "version": "2.0.0",
+      "description": "发货时自动识别快递单号格式、回填物流信息、异常单号自动提醒",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_tracking_auto",
+      "downloads": 0
+    },
+    "wanclaw.ec_review_monitor": {
+      "name": "差评自动监控提醒",
+      "version": "2.0.0",
+      "description": "多平台买家差评、中差评实时监控，自动推送至钉钉/飞书/微信，提醒客服及时响应",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_review_monitor",
+      "downloads": 0
+    },
+    "wanclaw.ec_unified_order_view": {
+      "name": "多店铺订单统一视图",
+      "version": "2.0.0",
+      "description": "聚合淘宝/京东/拼多多/抖音/快手等多平台订单，统一展示、筛选、导出",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_unified_order_view",
+      "downloads": 0
+    },
+    "wanclaw.ec_shipping_fee": {
+      "name": "运费智能计算",
+      "version": "2.0.0",
+      "description": "根据商品重量、地区、快递公司自动计算运费，支持首重续重、满减包邮规则",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_shipping_fee",
+      "downloads": 0
+    },
+    "wanclaw.ec_data_mask": {
+      "name": "订单数据脱敏导出",
+      "version": "2.0.0",
+      "description": "订单数据导出时自动脱敏（手机号、地址、姓名），支持自定义脱敏规则，满足数据安全合规",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "database",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_data_mask",
+      "downloads": 0
+    },
+    "wanclaw.ec_presale_split": {
+      "name": "预售订单自动拆分",
+      "version": "2.0.0",
+      "description": "预售订单按商品库存状态自动拆分为现货单/预售单，分别推送至仓库处理",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_presale_split",
+      "downloads": 0
+    },
+    "wanclaw.ec_rto_ledger": {
+      "name": "退换货自动台账",
+      "version": "2.0.0",
+      "description": "电商退换货申请自动登记台账，跟踪处理进度，自动生成月度退换货报表",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_rto_ledger",
+      "downloads": 0
+    },
+    "wanclaw.ec_stock_alert": {
+      "name": "库存阈值自动告警",
+      "version": "2.0.0",
+      "description": "商品库存低于预设阈值时自动告警，支持多平台店铺、多SKU监控，消息推送到钉钉/飞书/邮件",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_stock_alert",
+      "downloads": 0
+    },
+    "wanclaw.ec_auto_review_reply": {
+      "name": "评价智能自动回复",
+      "version": "2.0.0",
+      "description": "基于语义识别自动生成评价回复，好评感谢、中差评安抚，支持自定义回复模板和AI生成",
+      "author": "WanClaw",
+      "category": "电商自动化",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ec_auto_review_reply",
+      "downloads": 0
+    },
+    "wanclaw.im_friend_auto": {
+      "name": "好友自动通过与打标",
+      "version": "2.0.0",
+      "description": "新好友申请自动通过、按来源渠道自动打标签，支持企业微信/微信/QQ等多平台",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_friend_auto",
+      "downloads": 0
+    },
+    "wanclaw.im_welcome_auto": {
+      "name": "新人入群自动欢迎",
+      "version": "2.0.0",
+      "description": "新成员加入群聊时自动发送欢迎语，支持@mention、自定义文案、间隔发送避免频繁",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_welcome_auto",
+      "downloads": 0
+    },
+    "wanclaw.im_keyword_reply": {
+      "name": "关键词触发自动回复",
+      "version": "2.0.0",
+      "description": "根据消息关键词自动匹配回复内容，支持正则表达式、模糊匹配、多答案随机回复",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_keyword_reply",
+      "downloads": 0
+    },
+    "wanclaw.im_anti_ads": {
+      "name": "广告违规自动踢人",
+      "version": "2.0.0",
+      "description": "群内检测广告链接、敏感词、诱导分享等违规内容，自动警告或踢出，并记录日志",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_anti_ads",
+      "downloads": 0
+    },
+    "wanclaw.im_mute_schedule": {
+      "name": "静音时段定时开关",
+      "version": "2.0.0",
+      "description": "设置消息免打扰时段，自动开启/关闭消息免打扰，支持工作日/周末不同规则",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_mute_schedule",
+      "downloads": 0
+    },
+    "wanclaw.im_message_priority": {
+      "name": "客户消息智能分级",
+      "version": "2.0.0",
+      "description": "基于消息内容和客户画像自动分级（紧急/重要/普通），优先推送高价值客户消息",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_message_priority",
+      "downloads": 0
+    },
+    "wanclaw.im_inbox_unified": {
+      "name": "多平台消息统一收件箱",
+      "version": "2.0.0",
+      "description": "聚合企业微信/钉钉/飞书/Telegram等消息，统一展示、回复、检索，支持会话合并",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_inbox_unified",
+      "downloads": 0
+    },
+    "wanclaw.im_quick_reply": {
+      "name": "快捷回复模板库",
+      "version": "2.0.0",
+      "description": "常用话术模板库，支持分类管理、快捷搜索、一键发送，提高客服效率",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_quick_reply",
+      "downloads": 0
+    },
+    "wanclaw.im_group_activity": {
+      "name": "群活跃度统计分析",
+      "version": "2.0.0",
+      "description": "自动统计群的发言人数、消息数量、活跃时段，生成日/周/月度群运营报告",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_group_activity",
+      "downloads": 0
+    },
+    "wanclaw.im_profile_auto": {
+      "name": "客户画像自动记录",
+      "version": "2.0.0",
+      "description": "自动记录客户的基础信息、咨询内容、购买记录，构建完整客户画像并打标签",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_profile_auto",
+      "downloads": 0
+    },
+    "wanclaw.im_voice_to_text": {
+      "name": "语音消息转文字",
+      "version": "2.0.0",
+      "description": "接收到的语音消息自动转文字，方便客服查看和检索，支持普通话和方言",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_voice_to_text",
+      "downloads": 0
+    },
+    "wanclaw.im_blacklist_sync": {
+      "name": "跨平台黑名单同步",
+      "version": "2.0.0",
+      "description": "黑名单用户跨平台同步，多平台自动拦截，永久封禁，支持手动添加和自动规则",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_blacklist_sync",
+      "downloads": 0
+    },
+    "wanclaw.im_schedule_broadcast": {
+      "name": "定时群发消息",
+      "version": "2.0.0",
+      "description": "定时向客户/群聊发送营销内容，支持内容审核、定时取消、发送效果追踪",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_schedule_broadcast",
+      "downloads": 0
+    },
+    "wanclaw.im_transfer_handoff": {
+      "name": "客服会话智能转接",
+      "version": "2.0.0",
+      "description": "根据客服技能组、在线状态、客户级别自动转接会话，支持转接历史记录",
+      "author": "WanClaw",
+      "category": "IM智能客服",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.im_transfer_handoff",
+      "downloads": 0
+    },
+    "wanclaw.office_excel_diff": {
+      "name": "Excel批量对比差异",
+      "version": "2.0.0",
+      "description": "两个或多个Excel文件对比，快速找出差异单元格、新增行、删除行，高亮标注",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_excel_diff",
+      "downloads": 0
+    },
+    "wanclaw.office_pdf_watermark": {
+      "name": "PDF批量水印处理",
+      "version": "2.0.0",
+      "description": "批量给PDF添加文字/图片水印，或批量去除水印，支持自定义透明度、位置、旋转角度",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_pdf_watermark",
+      "downloads": 0
+    },
+    "wanclaw.office_image_processor": {
+      "name": "图片批量处理",
+      "version": "2.0.0",
+      "description": "批量压缩图片、调整尺寸、裁剪、加logo/水印，支持JPG/PNG/GIF/WebP格式",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_image_processor",
+      "downloads": 0
+    },
+    "wanclaw.office_folder_auto_sort": {
+      "name": "文件夹自动整理归档",
+      "version": "2.0.0",
+      "description": "按文件类型、日期、名称等规则自动整理文件夹，支持自定义规则、定期自动执行",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_folder_auto_sort",
+      "downloads": 0
+    },
+    "wanclaw.office_email_auto_classify": {
+      "name": "邮件自动分类归档",
+      "version": "2.0.0",
+      "description": "根据发件人、主题、关键词自动将邮件分类到指定文件夹，支持规则组合",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "email"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_email_auto_classify",
+      "downloads": 0
+    },
+    "wanclaw.office_web_scraper": {
+      "name": "网页数据定时采集",
+      "version": "2.0.0",
+      "description": "可视化配置采集规则，定时抓取网页数据，支持登录认证、翻页、增量采集",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_web_scraper",
+      "downloads": 0
+    },
+    "wanclaw.office_deduplicate": {
+      "name": "表格重复数据去重",
+      "version": "2.0.0",
+      "description": "Excel/CSV表格按指定列去重，支持完全去重和模糊去重，生成去重报告",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_deduplicate",
+      "downloads": 0
+    },
+    "wanclaw.office_multi_table_merge": {
+      "name": "多表格自动汇总",
+      "version": "2.0.0",
+      "description": "将多个结构相同或不同的表格按字段关联汇总，支持vlookup、数据透视",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_multi_table_merge",
+      "downloads": 0
+    },
+    "wanclaw.office_contract_extract": {
+      "name": "合同要素智能提取",
+      "version": "2.0.0",
+      "description": "自动识别PDF/图片合同中的关键要素：甲乙方、金额、期限、违约条款，高亮标注",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_contract_extract",
+      "downloads": 0
+    },
+    "wanclaw.office_batch_rename": {
+      "name": "批量文件规则重命名",
+      "version": "2.0.0",
+      "description": "按前缀/后缀/序号/日期等规则批量重命名文件，支持预览和撤销",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_batch_rename",
+      "downloads": 0
+    },
+    "wanclaw.office_form_auto_fill": {
+      "name": "网页表单自动填充",
+      "version": "2.0.0",
+      "description": "预设数据自动填充网页表单，支持批量导入、多表单、自动提交",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_form_auto_fill",
+      "downloads": 0
+    },
+    "wanclaw.office_print_queue": {
+      "name": "打印任务自动队列",
+      "version": "2.0.0",
+      "description": "批量文件加入打印队列，自动分页、自动排版、按打印机分配任务",
+      "author": "WanClaw",
+      "category": "办公RPA",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.office_print_queue",
+      "downloads": 0
+    },
+    "wanclaw.ai_product_copy": {
+      "name": "AI商品文案生成",
+      "version": "2.0.0",
+      "description": "输入商品信息自动生成标题、主图描述、详情页文案，支持多平台风格适配（淘宝/抖音/京东）",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_product_copy",
+      "downloads": 0
+    },
+    "wanclaw.ai_reply_suggest": {
+      "name": "AI客服话术推荐",
+      "version": "2.0.0",
+      "description": "根据客户问题实时推荐最佳回复话术，支持多轮对话上下文记忆，客服一点即用",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_reply_suggest",
+      "downloads": 0
+    },
+    "wanclaw.ai_ocr_high_precision": {
+      "name": "高精度OCR识别",
+      "version": "2.0.0",
+      "description": "票据、身份证、营业执照、合同等高精度识别，支持批量图片转文字，结构化输出",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read",
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_ocr_high_precision",
+      "downloads": 0
+    },
+    "wanclaw.ai_tts_broadcast": {
+      "name": "语音合成播报",
+      "version": "2.0.0",
+      "description": "文字转语音播报，支持多种音色、语速调节，可用于通知播报、客服录音",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_tts_broadcast",
+      "downloads": 0
+    },
+    "wanclaw.ai_text_summary": {
+      "name": "长文本自动摘要",
+      "version": "2.0.0",
+      "description": "长篇文章、会议记录、报告自动摘要为关键要点，支持指定摘要长度",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_text_summary",
+      "downloads": 0
+    },
+    "wanclaw.ai_intent_classify": {
+      "name": "AI意图识别",
+      "version": "2.0.0",
+      "description": "无需配置，自动识别用户消息意图（咨询/投诉/购买/退款等），驱动智能路由",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_intent_classify",
+      "downloads": 0
+    },
+    "wanclaw.ai_translate": {
+      "name": "多语言自动翻译",
+      "version": "2.0.0",
+      "description": "支持中英日韩法德等30+语言互译，批量翻译文档、聊天记录、商品信息",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_translate",
+      "downloads": 0
+    },
+    "wanclaw.ai_image_moderation": {
+      "name": "图片内容安全审核",
+      "version": "2.0.0",
+      "description": "自动检测图片中的色情、暴恐、政治敏感等违规内容，返回风险评分和位置",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_image_moderation",
+      "downloads": 0
+    },
+    "wanclaw.ai_report_auto": {
+      "name": "AI自动生成经营报告",
+      "version": "2.0.0",
+      "description": "自动汇总订单、客服、销售数据，生成日报/周报/月报，支持导出Word/PDF",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_report_auto",
+      "downloads": 0
+    },
+    "wanclaw.ai_emotion_detect": {
+      "name": "对话情绪识别",
+      "version": "2.0.0",
+      "description": "分析买家/客户消息的情绪（愤怒/不满/满意/中性），自动标记高情绪客户优先处理",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_emotion_detect",
+      "downloads": 0
+    },
+    "wanclaw.data_sales_stats": {
+      "name": "经营数据自动统计",
+      "version": "2.0.0",
+      "description": "日/周/月度订单销售额、退款额、客单价自动统计，支持多平台汇总对比",
+      "author": "WanClaw",
+      "category": "数据统计",
+      "keywords": [],
+      "permissions": [
+        "database",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.data_sales_stats",
+      "downloads": 0
+    },
+    "wanclaw.data_agent_stats": {
+      "name": "客服接待量实时报表",
+      "version": "2.0.0",
+      "description": "客服的接待消息数、平均响应时长、好评率实时统计，生成个人/团队排行榜",
+      "author": "WanClaw",
+      "category": "数据统计",
+      "keywords": [],
+      "permissions": [
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.data_agent_stats",
+      "downloads": 0
+    },
+    "wanclaw.data_plugin_usage": {
+      "name": "插件使用数据统计",
+      "version": "2.0.0",
+      "description": "统计各插件的使用频率、执行成功率、平均耗时，支持按团队/用户筛选",
+      "author": "WanClaw",
+      "category": "数据统计",
+      "keywords": [],
+      "permissions": [
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.data_plugin_usage",
+      "downloads": 0
+    },
+    "wanclaw.data_channel_stats": {
+      "name": "客户来源渠道分析",
+      "version": "2.0.0",
+      "description": "分析客户来源渠道（搜索/广告/社群/活动等），统计各渠道转化率和ROI",
+      "author": "WanClaw",
+      "category": "数据统计",
+      "keywords": [],
+      "permissions": [
+        "database",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.data_channel_stats",
+      "downloads": 0
+    },
+    "wanclaw.data_inventory_turnover": {
+      "name": "库存周转率分析",
+      "version": "2.0.0",
+      "description": "自动计算各SKU的库存周转天数、呆滞库存预警、补货建议",
+      "author": "WanClaw",
+      "category": "数据统计",
+      "keywords": [],
+      "permissions": [
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.data_inventory_turnover",
+      "downloads": 0
+    },
+    "wanclaw.data_chart_export": {
+      "name": "可视化图表导出",
+      "version": "2.0.0",
+      "description": "数据一键生成折线图、柱状图、饼图、漏斗图，支持导出PNG/SVG/Excel",
+      "author": "WanClaw",
+      "category": "数据统计",
+      "keywords": [],
+      "permissions": [
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.data_chart_export",
+      "downloads": 0
+    },
+    "wanclaw.data_sync_sheets": {
+      "name": "数据同步至飞书/钉钉",
+      "version": "2.0.0",
+      "description": "经营数据自动同步至飞书多维表格或钉钉表格，定时推送，支持自定义字段映射",
+      "author": "WanClaw",
+      "category": "数据统计",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.data_sync_sheets",
+      "downloads": 0
+    },
+    "wanclaw.data_daily_push": {
+      "name": "每日经营数据推送",
+      "version": "2.0.0",
+      "description": "每天定时将核心经营指标（销售额/订单数/客单价）推送至钉钉群/邮件/微信",
+      "author": "WanClaw",
+      "category": "数据统计",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.data_daily_push",
+      "downloads": 0
+    },
+    "wanclaw.ops_auto_restart": {
+      "name": "服务崩溃自动重启",
+      "version": "2.0.0",
+      "description": "监控服务健康状态，进程崩溃、网络断连时自动重启，支持邮件/钉钉通知",
+      "author": "WanClaw",
+      "category": "系统运维",
+      "keywords": [],
+      "permissions": [],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ops_auto_restart",
+      "downloads": 0
+    },
+    "wanclaw.ops_disk_cleanup": {
+      "name": "磁盘空间自动清理",
+      "version": "2.0.0",
+      "description": "磁盘使用率超过阈值时自动清理日志、临时文件、旧的备份，支持白名单保护",
+      "author": "WanClaw",
+      "category": "系统运维",
+      "keywords": [],
+      "permissions": [
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ops_disk_cleanup",
+      "downloads": 0
+    },
+    "wanclaw.ops_config_backup": {
+      "name": "配置文件自动备份",
+      "version": "2.0.0",
+      "description": "配置文件修改时自动备份至指定目录，支持版本管理、超量自动清理",
+      "author": "WanClaw",
+      "category": "系统运维",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ops_config_backup",
+      "downloads": 0
+    },
+    "wanclaw.ops_cpu_mem_alert": {
+      "name": "资源超限告警",
+      "version": "2.0.0",
+      "description": "CPU/内存/磁盘超过阈值时自动告警，支持钉钉/飞书/邮件推送",
+      "author": "WanClaw",
+      "category": "系统运维",
+      "keywords": [],
+      "permissions": [],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ops_cpu_mem_alert",
+      "downloads": 0
+    },
+    "wanclaw.ops_log_rotate": {
+      "name": "日志自动切割归档",
+      "version": "2.0.0",
+      "description": "日志文件按大小或日期自动切割，压缩归档，保留指定天数历史日志",
+      "author": "WanClaw",
+      "category": "系统运维",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ops_log_rotate",
+      "downloads": 0
+    },
+    "wanclaw.ops_remote_restart": {
+      "name": "远程服务一键重启",
+      "version": "2.0.0",
+      "description": "通过API或管理后台远程重启指定服务，支持服务分组、批量操作",
+      "author": "WanClaw",
+      "category": "系统运维",
+      "keywords": [],
+      "permissions": [],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ops_remote_restart",
+      "downloads": 0
+    },
+    "wanclaw.ops_network_reconnect": {
+      "name": "网络断连自动重连",
+      "version": "2.0.0",
+      "description": "检测网络连接状态，断开后自动重连，失败后告警通知",
+      "author": "WanClaw",
+      "category": "系统运维",
+      "keywords": [],
+      "permissions": [],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ops_network_reconnect",
+      "downloads": 0
+    },
+    "wanclaw.wf_visual_builder": {
+      "name": "可视化工作流设计器",
+      "version": "2.0.0",
+      "description": "拖拽式可视化工作流设计器，支持连线和节点配置，在线保存和调试",
+      "author": "WanClaw",
+      "category": "工作流",
+      "keywords": [],
+      "permissions": [
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.wf_visual_builder",
+      "downloads": 0
+    },
+    "wanclaw.wf_condition_branch": {
+      "name": "条件分支工作流",
+      "version": "2.0.0",
+      "description": "工作流中支持IF/ELSE条件判断，根据数据动态选择执行分支",
+      "author": "WanClaw",
+      "category": "工作流",
+      "keywords": [],
+      "permissions": [
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.wf_condition_branch",
+      "downloads": 0
+    },
+    "wanclaw.wf_schedule_trigger": {
+      "name": "定时任务触发",
+      "version": "2.0.0",
+      "description": "工作流支持定时触发（cron表达式），按日/周/月循环执行",
+      "author": "WanClaw",
+      "category": "工作流",
+      "keywords": [],
+      "permissions": [
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.wf_schedule_trigger",
+      "downloads": 0
+    },
+    "wanclaw.wf_auto_retry": {
+      "name": "失败步骤自动重试",
+      "version": "2.0.0",
+      "description": "工作流节点执行失败时自动重试，支持设置重试次数、间隔、可跳过的错误类型",
+      "author": "WanClaw",
+      "category": "工作流",
+      "keywords": [],
+      "permissions": [
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.wf_auto_retry",
+      "downloads": 0
+    },
+    "wanclaw.wf_result_notify": {
+      "name": "执行结果自动通知",
+      "version": "2.0.0",
+      "description": "工作流执行完成后自动发送通知，支持钉钉/飞书/邮件/微信",
+      "author": "WanClaw",
+      "category": "工作流",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.wf_result_notify",
+      "downloads": 0
+    },
+    "wanclaw.wf_template_import": {
+      "name": "工作流模板市场",
+      "version": "2.0.0",
+      "description": "内置常用工作流模板（订单处理/客服接待/数据采集），一键导入使用",
+      "author": "WanClaw",
+      "category": "工作流",
+      "keywords": [],
+      "permissions": [
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.wf_template_import",
+      "downloads": 0
+    },
+    "wanclaw.eco_oneclick_install": {
+      "name": "插件一键安装升级",
+      "version": "2.0.0",
+      "description": "从ClawHub生态站一键安装插件，自动处理依赖，支持版本升级和回滚",
+      "author": "WanClaw",
+      "category": "插件生态",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.eco_oneclick_install",
+      "downloads": 0
+    },
+    "wanclaw.eco_permission_confirm": {
+      "name": "插件权限手动确认",
+      "version": "2.0.0",
+      "description": "插件安装前展示所需权限清单，用户手动确认授权，支持权限粒度控制",
+      "author": "WanClaw",
+      "category": "插件生态",
+      "keywords": [],
+      "permissions": [],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.eco_permission_confirm",
+      "downloads": 0
+    },
+    "wanclaw.eco_plugin_rating": {
+      "name": "插件评分与评论",
+      "version": "2.0.0",
+      "description": "用户对插件进行1-5星评分和文字评论，支持查看插件评价和评分趋势",
+      "author": "WanClaw",
+      "category": "插件生态",
+      "keywords": [],
+      "permissions": [
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.eco_plugin_rating",
+      "downloads": 0
+    },
+    "wanclaw.eco_plugin_ranking": {
+      "name": "插件排行榜",
+      "version": "2.0.0",
+      "description": "按下载量、评分、好评率等多维度展示插件排行榜，推荐优质插件",
+      "author": "WanClaw",
+      "category": "插件生态",
+      "keywords": [],
+      "permissions": [
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.eco_plugin_ranking",
+      "downloads": 0
+    },
+    "wanclaw.eco_offline_import": {
+      "name": "本地插件离线导入",
+      "version": "2.0.0",
+      "description": "支持导入本地ZIP包插件，无需联网，离线环境下也能扩展功能",
+      "author": "WanClaw",
+      "category": "插件生态",
+      "keywords": [],
+      "permissions": [
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.eco_offline_import",
+      "downloads": 0
+    },
+    "wanclaw.ai_knowledge_qa": {
+      "name": "知识库智能问答",
+      "version": "2.0.0",
+      "description": "基于企业知识库进行 RAG 检索问答，支持上传文档构建知识库，精准回答内部问题",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_knowledge_qa",
+      "downloads": 0
+    },
+    "wanclaw.ai_vector_search": {
+      "name": "向量语义检索",
+      "version": "2.0.0",
+      "description": "将文档、图片等内容向量化，支持语义相似度搜索，返回最相关结果",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_vector_search",
+      "downloads": 0
+    },
+    "wanclaw.ai_doc_qa": {
+      "name": "文档智能问答",
+      "version": "2.0.0",
+      "description": "上传 PDF/Word/Excel 后，直接用自然语言提问，AI 从文档中找出答案并标注来源",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_doc_qa",
+      "downloads": 0
+    },
+    "wanclaw.ai_code_generate": {
+      "name": "代码自动生成",
+      "version": "2.0.0",
+      "description": "根据自然语言需求自动生成 Python/JavaScript/Go 等代码，支持指定语言和框架",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_code_generate",
+      "downloads": 0
+    },
+    "wanclaw.ai_code_explain": {
+      "name": "代码解释与重构",
+      "version": "2.0.0",
+      "description": "上传代码片段，自动解释逻辑并给出优化重构建议，支持多语言",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_code_explain",
+      "downloads": 0
+    },
+    "wanclaw.ai_bug_detect": {
+      "name": "Bug 自动检测",
+      "version": "2.0.0",
+      "description": "扫描代码自动发现潜在 Bug、安全漏洞、性能问题，提供修复建议和示例代码",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_bug_detect",
+      "downloads": 0
+    },
+    "wanclaw.ai_image_generate": {
+      "name": "AI 文生图创作",
+      "version": "2.0.0",
+      "description": "输入文字描述自动生成图片，支持多种风格（写实/插画/动漫），可指定尺寸和比例",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_image_generate",
+      "downloads": 0
+    },
+    "wanclaw.ai_image_edit": {
+      "name": "图片智能编辑",
+      "version": "2.0.0",
+      "description": "AI 驱动的图片编辑，支持局部重绘、背景消除、画质增强、人像精修",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:read",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_image_edit",
+      "downloads": 0
+    },
+    "wanclaw.ai_voice_asr": {
+      "name": "语音识别转文字",
+      "version": "2.0.0",
+      "description": "音频/视频文件自动转文字，支持普通话、方言、英语，生成带时间戳的字幕文件",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_voice_asr",
+      "downloads": 0
+    },
+    "wanclaw.ai_voice_clone": {
+      "name": "声音克隆合成",
+      "version": "2.0.0",
+      "description": "上传少量音频样本，克隆音色，输入文字即可用克隆声音朗读",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_voice_clone",
+      "downloads": 0
+    },
+    "wanclaw.ai_nl_to_sql": {
+      "name": "自然语言转 SQL",
+      "version": "2.0.0",
+      "description": "用自然语言提问，自动生成 SQL 查询语句，从数据库获取结果并解读",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_nl_to_sql",
+      "downloads": 0
+    },
+    "wanclaw.ai_data_interpret": {
+      "name": "数据智能解读",
+      "version": "2.0.0",
+      "description": "上传 Excel/CSV 数据文件，AI 自动分析数据特征，发现规律，生成文字解读报告",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_data_interpret",
+      "downloads": 0
+    },
+    "wanclaw.ai_chart_generate": {
+      "name": "图表自动生成",
+      "version": "2.0.0",
+      "description": "输入数据或描述，自动推荐最佳图表类型，生成可编辑的图表，支持 PNG/SVG/Excel",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_chart_generate",
+      "downloads": 0
+    },
+    "wanclaw.ai_trend_predict": {
+      "name": "业务趋势预测",
+      "version": "2.0.0",
+      "description": "基于历史数据预测未来趋势（销售/流量/库存），输出预测值和置信区间",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_trend_predict",
+      "downloads": 0
+    },
+    "wanclaw.ai_anomaly_detect": {
+      "name": "异常数据检测",
+      "version": "2.0.0",
+      "description": "自动识别数据中的异常值和异常事件，标注异常点并给出可能原因分析",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_anomaly_detect",
+      "downloads": 0
+    },
+    "wanclaw.ai_xiaohongshu": {
+      "name": "小红书笔记生成",
+      "version": "2.0.0",
+      "description": "输入产品信息或话题，自动生成小红书风格图文笔记，包含emoji、标签和互动话术",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_xiaohongshu",
+      "downloads": 0
+    },
+    "wanclaw.ai_video_script": {
+      "name": "视频脚本生成",
+      "version": "2.0.0",
+      "description": "输入视频主题，自动生成完整视频脚本，包含开场、转折、高潮、结尾和字幕文案",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_video_script",
+      "downloads": 0
+    },
+    "wanclaw.ai_seo_optimize": {
+      "name": "SEO 标题描述优化",
+      "version": "2.0.0",
+      "description": "输入文章或产品标题，AI 优化 SEO 元标签（Title/Meta/关键词），提升搜索排名",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_seo_optimize",
+      "downloads": 0
+    },
+    "wanclaw.ai_contract_audit": {
+      "name": "合同智能审查",
+      "version": "2.0.0",
+      "description": "上传合同 PDF，自动识别风险条款、缺失条款、不合理条款，生成审查报告",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_contract_audit",
+      "downloads": 0
+    },
+    "wanclaw.ai_pdf_qa": {
+      "name": "PDF 文档问答",
+      "version": "2.0.0",
+      "description": "上传 PDF 文档，用自然语言提问，AI 在文档范围内精准回答，标注答案所在页码",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:read"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_pdf_qa",
+      "downloads": 0
+    },
+    "wanclaw.ai_smart_search": {
+      "name": "智能语义搜索",
+      "version": "2.0.0",
+      "description": "超越关键词匹配，理解搜索意图，返回语义最相关的文档和内容片段",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "database"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_smart_search",
+      "downloads": 0
+    },
+    "wanclaw.ai_meeting_minutes": {
+      "name": "会议纪要生成",
+      "version": "2.0.0",
+      "description": "上传会议录音或文字记录，AI 自动生成结构化会议纪要，包含决议、待办和负责人",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network",
+        "filesystem:read",
+        "filesystem:write"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_meeting_minutes",
+      "downloads": 0
+    },
+    "wanclaw.ai_similar_rec": {
+      "name": "相似内容推荐",
+      "version": "2.0.0",
+      "description": "输入一段内容，AI 推荐与之相似的文章、商品或解决方案，用于知识推荐和营销",
+      "author": "WanClaw",
+      "category": "AI增强",
+      "keywords": [],
+      "permissions": [
+        "network"
+      ],
+      "download_url": "https://wanhub.vanyue.cn/api/community/plugins/download?plugin_id=wanclaw.ai_similar_rec",
+      "downloads": 0
+    }
+  },
+  "last_sync": 1774697944.1469674
+}

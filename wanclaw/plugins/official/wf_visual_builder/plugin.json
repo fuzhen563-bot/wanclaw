@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.wf_visual_builder",
+  "plugin_name": "可视化工作流设计器",
+  "plugin_type": "skill",
+  "description": "拖拽式可视化工作流设计器，支持连线和节点配置，在线保存和调试",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "workflow",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "database"
+  ],
+  "keywords": [
+    "工作流",
+    "可视化",
+    "拖拽",
+    "编排"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "工作流"
+  ]
+}

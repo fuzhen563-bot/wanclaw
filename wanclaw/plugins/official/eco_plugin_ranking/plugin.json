@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.eco_plugin_ranking",
+  "plugin_name": "插件排行榜",
+  "plugin_type": "skill",
+  "description": "按下载量、评分、好评率等多维度展示插件排行榜，推荐优质插件",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ecosystem",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "database"
+  ],
+  "keywords": [
+    "排行榜",
+    "插件排行",
+    "推荐",
+    "生态站"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "插件生态"
+  ]
+}

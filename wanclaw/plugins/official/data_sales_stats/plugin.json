@@ -1,0 +1,36 @@
+{
+  "plugin_id": "wanclaw.data_sales_stats",
+  "plugin_name": "经营数据自动统计",
+  "plugin_type": "skill",
+  "description": "日/周/月度订单销售额、退款额、客单价自动统计，支持多平台汇总对比",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "data",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "database",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "销售统计",
+    "经营数据",
+    "报表",
+    "电商"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [
+    "pandas"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "数据统计"
+  ]
+}

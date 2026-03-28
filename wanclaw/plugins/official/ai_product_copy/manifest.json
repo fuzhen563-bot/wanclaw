@@ -1,0 +1,23 @@
+{
+  "name": "ai_product_copy",
+  "version": "2.0.0",
+  "description": "输入商品信息自动生成标题、主图描述、详情页文案，支持多平台风格适配（淘宝/抖音/京东）",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "AI文案",
+    "商品描述",
+    "标题生成",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

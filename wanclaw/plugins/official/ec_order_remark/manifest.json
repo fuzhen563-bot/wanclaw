@@ -1,0 +1,25 @@
+{
+  "name": "ec_order_remark",
+  "version": "2.0.0",
+  "description": "淘宝/天猫订单自动识别买家留言并打标备注，支持关键词匹配、颜色尺码提取、发货时间承诺",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "淘宝",
+    "天猫",
+    "订单备注",
+    "打标",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

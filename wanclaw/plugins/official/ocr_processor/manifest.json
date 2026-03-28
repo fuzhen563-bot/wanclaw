@@ -1,0 +1,25 @@
+{
+  "name": "ocr_processor",
+  "version": "2.0.0",
+  "description": "OCR识别：图片文字识别、PDF转文字、表格识别、批量识别",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "ocr",
+    "识别",
+    "文字",
+    "ai"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "pytesseract"
+  ],
+  "permissions": [
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

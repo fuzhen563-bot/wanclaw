@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ai_intent_classify",
+  "plugin_name": "AI意图识别",
+  "plugin_type": "skill",
+  "description": "无需配置，自动识别用户消息意图（咨询/投诉/购买/退款等），驱动智能路由",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "意图识别",
+    "NLP",
+    "分类",
+    "AI",
+    "客服"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.wf_condition_branch",
+  "plugin_name": "条件分支工作流",
+  "plugin_type": "skill",
+  "description": "工作流中支持IF/ELSE条件判断，根据数据动态选择执行分支",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "workflow",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "database"
+  ],
+  "keywords": [
+    "工作流",
+    "条件分支",
+    "IF",
+    "判断"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "工作流"
+  ]
+}

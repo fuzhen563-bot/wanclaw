@@ -1,0 +1,32 @@
+{
+  "plugin_id": "wanclaw.wf_template_import",
+  "plugin_name": "工作流模板市场",
+  "plugin_type": "skill",
+  "description": "内置常用工作流模板（订单处理/客服接待/数据采集），一键导入使用",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "workflow",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "database"
+  ],
+  "keywords": [
+    "工作流模板",
+    "模板市场",
+    "一键导入"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "工作流"
+  ]
+}

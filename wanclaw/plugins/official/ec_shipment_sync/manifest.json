@@ -1,0 +1,25 @@
+{
+  "name": "ec_shipment_sync",
+  "version": "2.0.0",
+  "description": "抖音小店订单自动抓取、物流信息自动回填、发货状态自动同步至平台",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "抖音",
+    "抖店",
+    "自动发货",
+    "物流同步",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

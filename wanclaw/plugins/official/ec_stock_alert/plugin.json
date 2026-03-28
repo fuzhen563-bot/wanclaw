@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.ec_stock_alert",
+  "plugin_name": "库存阈值自动告警",
+  "plugin_type": "skill",
+  "description": "商品库存低于预设阈值时自动告警，支持多平台店铺、多SKU监控，消息推送到钉钉/飞书/邮件",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ecommerce",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "库存",
+    "告警",
+    "阈值",
+    "库存预警",
+    "电商"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "电商自动化"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "plugin_id": "skill.log_cleaner",
+  "plugin_name": "日志清理",
+  "plugin_type": "skill",
+  "description": "日志清理：过期日志清理、磁盘空间释放、日志归档",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ops",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:write"
+  ],
+  "keywords": [
+    "日志",
+    "清理",
+    "磁盘",
+    "ops"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "ops"
+  ]
+}

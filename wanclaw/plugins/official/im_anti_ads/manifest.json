@@ -1,0 +1,24 @@
+{
+  "name": "im_anti_ads",
+  "version": "2.0.0",
+  "description": "群内检测广告链接、敏感词、诱导分享等违规内容，自动警告或踢出，并记录日志",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "广告",
+    "踢人",
+    "违规词",
+    "社群运营",
+    "微信"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

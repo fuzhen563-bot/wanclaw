@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.ai_voice_asr",
+  "plugin_name": "语音识别转文字",
+  "plugin_type": "skill",
+  "description": "音频/视频文件自动转文字，支持普通话、方言、英语，生成带时间戳的字幕文件",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "keywords": [
+    "ASR",
+    "语音转文字",
+    "字幕",
+    "录音转文字",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

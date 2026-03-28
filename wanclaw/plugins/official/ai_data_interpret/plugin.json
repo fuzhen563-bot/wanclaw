@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ai_data_interpret",
+  "plugin_name": "数据智能解读",
+  "plugin_type": "skill",
+  "description": "上传 Excel/CSV 数据文件，AI 自动分析数据特征，发现规律，生成文字解读报告",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "keywords": [
+    "数据分析",
+    "数据解读",
+    "Excel",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

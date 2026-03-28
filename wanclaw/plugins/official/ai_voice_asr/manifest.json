@@ -1,0 +1,25 @@
+{
+  "name": "ai_voice_asr",
+  "version": "2.0.0",
+  "description": "音频/视频文件自动转文字，支持普通话、方言、英语，生成带时间戳的字幕文件",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "ASR",
+    "语音转文字",
+    "字幕",
+    "录音转文字",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

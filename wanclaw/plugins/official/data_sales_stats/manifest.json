@@ -1,0 +1,26 @@
+{
+  "name": "data_sales_stats",
+  "version": "2.0.0",
+  "description": "日/周/月度订单销售额、退款额、客单价自动统计，支持多平台汇总对比",
+  "author": "WanClaw",
+  "category": "data",
+  "keywords": [
+    "销售统计",
+    "经营数据",
+    "报表",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "pandas"
+  ],
+  "permissions": [
+    "database",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

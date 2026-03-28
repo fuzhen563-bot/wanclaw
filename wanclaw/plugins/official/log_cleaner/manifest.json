@@ -1,0 +1,23 @@
+{
+  "name": "log_cleaner",
+  "version": "2.0.0",
+  "description": "日志清理：过期日志清理、磁盘空间释放、日志归档",
+  "author": "WanClaw",
+  "category": "ops",
+  "keywords": [
+    "日志",
+    "清理",
+    "磁盘",
+    "ops"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

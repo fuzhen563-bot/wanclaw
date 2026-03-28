@@ -1,0 +1,25 @@
+{
+  "name": "ops_disk_cleanup",
+  "version": "2.0.0",
+  "description": "磁盘使用率超过阈值时自动清理日志、临时文件、旧的备份，支持白名单保护",
+  "author": "WanClaw",
+  "category": "ops",
+  "keywords": [
+    "磁盘清理",
+    "日志清理",
+    "运维",
+    "存储"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "psutil"
+  ],
+  "permissions": [
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

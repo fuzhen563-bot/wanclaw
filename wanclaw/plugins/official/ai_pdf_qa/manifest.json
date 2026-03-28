@@ -1,0 +1,24 @@
+{
+  "name": "ai_pdf_qa",
+  "version": "2.0.0",
+  "description": "上传 PDF 文档，用自然语言提问，AI 在文档范围内精准回答，标注答案所在页码",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "PDF问答",
+    "文档理解",
+    "PDF阅读",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

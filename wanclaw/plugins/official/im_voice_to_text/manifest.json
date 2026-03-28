@@ -1,0 +1,23 @@
+{
+  "name": "im_voice_to_text",
+  "version": "2.0.0",
+  "description": "接收到的语音消息自动转文字，方便客服查看和检索，支持普通话和方言",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "语音转文字",
+    "ASR",
+    "语音识别",
+    "IM"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

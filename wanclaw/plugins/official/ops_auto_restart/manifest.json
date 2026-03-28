@@ -1,0 +1,23 @@
+{
+  "name": "ops_auto_restart",
+  "version": "2.0.0",
+  "description": "监控服务健康状态，进程崩溃、网络断连时自动重启，支持邮件/钉钉通知",
+  "author": "WanClaw",
+  "category": "ops",
+  "keywords": [
+    "重启",
+    "自愈",
+    "守护进程",
+    "运维"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "psutil"
+  ],
+  "permissions": [],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

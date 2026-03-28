@@ -1,0 +1,32 @@
+{
+  "plugin_id": "skill.inventory_manager",
+  "plugin_name": "库存管理",
+  "plugin_type": "skill",
+  "description": "库存管理：库存查询、预警提醒、出入库记录、盘点",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "management",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "database"
+  ],
+  "keywords": [
+    "库存",
+    "管理",
+    "management"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "management"
+  ]
+}

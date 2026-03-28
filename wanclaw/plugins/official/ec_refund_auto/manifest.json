@@ -1,0 +1,25 @@
+{
+  "name": "ec_refund_auto",
+  "version": "2.0.0",
+  "description": "拼多多售后单自动审核，符合条件自动同意退款退货，异常单标记人工处理",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "拼多多",
+    "售后",
+    "退款",
+    "自动审核",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

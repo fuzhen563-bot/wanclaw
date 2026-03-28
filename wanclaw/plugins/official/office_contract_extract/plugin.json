@@ -1,0 +1,37 @@
+{
+  "plugin_id": "wanclaw.office_contract_extract",
+  "plugin_name": "合同要素智能提取",
+  "plugin_type": "skill",
+  "description": "自动识别PDF/图片合同中的关键要素：甲乙方、金额、期限、违约条款，高亮标注",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "合同",
+    "提取",
+    "NLP",
+    "要素识别",
+    "办公"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [
+    "pytesseract"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "办公RPA"
+  ]
+}

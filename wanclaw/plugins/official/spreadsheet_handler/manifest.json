@@ -1,0 +1,26 @@
+{
+  "name": "spreadsheet_handler",
+  "version": "2.0.0",
+  "description": "表格处理：数据透视、公式计算、图表生成、条件格式",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "表格",
+    "透视",
+    "公式",
+    "图表",
+    "office"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "openpyxl"
+  ],
+  "permissions": [
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

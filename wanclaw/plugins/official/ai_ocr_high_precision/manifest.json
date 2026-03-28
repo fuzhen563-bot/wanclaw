@@ -1,0 +1,28 @@
+{
+  "name": "ai_ocr_high_precision",
+  "version": "2.0.0",
+  "description": "票据、身份证、营业执照、合同等高精度识别，支持批量图片转文字，结构化输出",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "OCR",
+    "文字识别",
+    "票据",
+    "身份证",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "pytesseract",
+    "Pillow"
+  ],
+  "permissions": [
+    "filesystem:read",
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

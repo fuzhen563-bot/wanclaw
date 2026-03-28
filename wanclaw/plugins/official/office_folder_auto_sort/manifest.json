@@ -1,0 +1,25 @@
+{
+  "name": "office_folder_auto_sort",
+  "version": "2.0.0",
+  "description": "按文件类型、日期、名称等规则自动整理文件夹，支持自定义规则、定期自动执行",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "文件夹",
+    "整理",
+    "归档",
+    "自动化",
+    "办公"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

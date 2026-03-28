@@ -1,0 +1,25 @@
+{
+  "name": "office_batch_rename",
+  "version": "2.0.0",
+  "description": "按前缀/后缀/序号/日期等规则批量重命名文件，支持预览和撤销",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "重命名",
+    "批量",
+    "文件",
+    "自动化",
+    "办公"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

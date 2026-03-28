@@ -1,0 +1,22 @@
+{
+  "name": "wf_template_import",
+  "version": "2.0.0",
+  "description": "内置常用工作流模板（订单处理/客服接待/数据采集），一键导入使用",
+  "author": "WanClaw",
+  "category": "workflow",
+  "keywords": [
+    "工作流模板",
+    "模板市场",
+    "一键导入"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

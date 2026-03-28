@@ -1,0 +1,24 @@
+{
+  "name": "ops_cpu_mem_alert",
+  "version": "2.0.0",
+  "description": "CPU/内存/磁盘超过阈值时自动告警，支持钉钉/飞书/邮件推送",
+  "author": "WanClaw",
+  "category": "ops",
+  "keywords": [
+    "告警",
+    "资源监控",
+    "CPU",
+    "内存",
+    "运维"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "psutil"
+  ],
+  "permissions": [],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "excel_processor",
+  "version": "2.0.0",
+  "description": "Excel处理：多表合并、拆分、去重、筛选、排序、汇总，生成日报周报月报，批量替换格式",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "excel",
+    "表格",
+    "合并",
+    "拆分",
+    "报表",
+    "office"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "openpyxl"
+  ],
+  "permissions": [
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ai_knowledge_qa",
+  "version": "2.0.0",
+  "description": "基于企业知识库进行 RAG 检索问答，支持上传文档构建知识库，精准回答内部问题",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "知识库",
+    "RAG",
+    "问答",
+    "检索增强",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

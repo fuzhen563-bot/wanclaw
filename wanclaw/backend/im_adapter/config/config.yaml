@@ -1,0 +1,197 @@
+advanced:
+  connection_timeout: 10
+  enable_compression: false
+  read_timeout: 10
+  thread_pool_size: 20
+  worker_count: 4
+  write_timeout: 10
+ai:
+  auto_reply:
+    ai_fallback: true
+    ai_prompt: 你是一个专业的客服助手，请简洁、友好地回复客户问题。不要提供价格承诺，引导客户联系人工客服处理复杂问题。
+    enabled: true
+    global_rules:
+    - keywords:
+      - 发货时间
+      - 什么时候发货
+      - 发货
+      reply: 您好，付款后24小时内发货，如有特殊商品会另行说明。如需查询订单状态，请提供订单号。
+    - keywords:
+      - 退款
+      - 退货
+      - 申请退款
+      reply: 您好，支持7天无理由退货。请在订单详情页申请退款，我们会在24小时内处理。
+    - keywords:
+      - 投诉
+      - 差评
+      reply: 非常抱歉给您带来不好的体验！我们会认真对待您的反馈，请联系人工客服获取进一步帮助。
+    - keywords:
+      - 价格
+      - 优惠
+      - 折扣
+      reply: 您好，请关注店铺活动信息，不同时期会有不同优惠活动。当前可联系客服咨询专属优惠。
+    platform_rules: {}
+  deepseek:
+    api_key: '06c8015ee8fd486e88b7c23fd23a22d7.t9uxQMms09qugrn0'
+    base_url: https://api.deepseek.com/v1
+    enabled: true
+    max_tokens: 4096
+    model: deepseek-chat
+    temperature: 0.7
+    timeout: 60
+  enabled: true
+  engine: zhipu
+  wanyue:
+    api_key: ''
+    base_url: https://api.vanyue.cn
+    enabled: false
+    max_tokens: 2048
+    model: wanxy-chat
+    temperature: 0.7
+    timeout: 60
+  moonshot:
+    api_key: '06c8015ee8fd486e88b7c23fd23a22d7.t9uxQMms09qugrn0'
+    base_url: https://api.moonshot.cn/v1
+    enabled: true
+    max_tokens: 2048
+    model: moonshot-v1-8k
+    temperature: 0.7
+    timeout: 60
+  nl_task:
+    enabled: true
+    max_steps: 10
+    task_prompt: '你是一个任务规划助手。根据用户的自然语言指令，分析需要执行哪些技能，以JSON格式输出执行计划。格式: {"steps": [{"skill":
+      "技能名", "params": {...}}]}'
+  ollama:
+    base_url: http://localhost:11434
+    max_tokens: 2048
+    model: qwen2.5:7b
+    preload: false
+    temperature: 0.7
+    timeout: 120
+  openai:
+    api_key: '06c8015ee8fd486e88b7c23fd23a22d7.t9uxQMms09qugrn0'
+    base_url: https://api.openai.com/v1
+    enabled: true
+    max_tokens: 2048
+    model: gpt-4o-mini
+    temperature: 0.7
+    timeout: 60
+  qwen:
+    api_key: '06c8015ee8fd486e88b7c23fd23a22d7.t9uxQMms09qugrn0'
+    base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+    enabled: true
+    max_tokens: 2048
+    model: qwen-plus
+    temperature: 0.7
+    timeout: 60
+  security:
+    blocked_patterns:
+    - ignore previous
+    - 忽略之前的指令
+    - system prompt
+    - 你是开发者
+    - 假装你是
+    - act as
+    - roleplay
+    max_input_length: 2000
+    prompt_injection_filter: true
+    rate_limit_per_minute: 30
+  zhipu:
+    api_key: '06c8015ee8fd486e88b7c23fd23a22d7.t9uxQMms09qugrn0'
+    base_url: https://open.bigmodel.cn/api/paas/v4
+    enabled: true
+    max_tokens: 2048
+    model: glm-4-flash
+    temperature: 0.7
+    timeout: 60
+feishu:
+  app_id: test_app_id
+  app_secret: test_app_secret
+  base_url: https://open.feishu.cn/open-apis
+  enabled: true
+  encrypt_key: test_key
+  verification_token: test_token
+  webhook_url: http://localhost:8000/feishu/webhook
+gateway:
+  enable_simulator: true
+  max_retry_count: 3
+  message_queue_size: 100
+  retry_delay: 1
+  simulator_port: 8080
+identity:
+  emoji: 🦐
+  name: 小虾
+logging:
+  backup_count: 5
+  console_output: true
+  file_path: ./logs/im_adapter.log
+  level: DEBUG
+  max_size: 10485760
+monitoring:
+  enable_metrics: true
+  enable_prometheus: true
+  health_check_interval: 10
+  metrics_port: 9090
+qq:
+  access_token: test_access_token
+  bot_id: test_bot_id
+  bot_secret: test_bot_secret
+  enabled: true
+  http_url: http://localhost:5700
+  protocol: onebot
+  qq_number: '100000000'
+  server_url: http://localhost:8080
+  ws_url: ws://localhost:6700
+security:
+  allowed_commands:
+  - help
+  - list
+  - file
+  - email
+  - process
+  - log
+  - backup
+  allowed_ips:
+  - 127.0.0.1
+  - ::1
+  enable_signature_check: false
+  rate_limit: 100
+skills:
+  cache_ttl: 300
+  enable_all: true
+  enable_cache: true
+  timeout: 30
+telegram:
+  base_url: https://api.telegram.org/bot
+  bot_token: test_bot_token:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  enabled: true
+  polling_timeout: 30
+  proxy_url: null
+testing:
+  enable_debug_endpoints: true
+  enable_mock_apis: true
+  log_all_requests: true
+  mock_response_delay: 0.5
+wechat:
+  agent_id: test_agent_id
+  app_id: test_app_id
+  app_secret: test_app_secret
+  corp_id: test_corp_id
+  enabled: true
+  type: work
+  webhook_url: http://localhost:8000/wechat/webhook
+community:
+  enable: true
+  api_base_url: https://wanhub.vanyue.cn
+  auto_check_update: true
+  allow_third_party_plugin: true
+  install_path: "./plugins"
+  safety_level: medium
+wecom:
+  agent_id: test_agent_id
+  base_url: https://qyapi.weixin.qq.com/cgi-bin
+  corp_id: test_corp_id
+  enabled: true
+  secret: test_secret
+  webhook_url: http://localhost:8000/wecom/webhook

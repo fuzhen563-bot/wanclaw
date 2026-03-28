@@ -1,0 +1,35 @@
+{
+  "plugin_id": "skill.file_manager",
+  "plugin_name": "文件管理器",
+  "plugin_type": "skill",
+  "description": "文件管理：批量重命名、分类整理、搜索查找、权限管理",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "文件",
+    "重命名",
+    "整理",
+    "搜索",
+    "office"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "office"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.ai_meeting_minutes",
+  "plugin_name": "会议纪要生成",
+  "plugin_type": "skill",
+  "description": "上传会议录音或文字记录，AI 自动生成结构化会议纪要，包含决议、待办和负责人",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "会议纪要",
+    "会议记录",
+    "待办事项",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

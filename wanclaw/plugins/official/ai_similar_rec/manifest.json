@@ -1,0 +1,23 @@
+{
+  "name": "ai_similar_rec",
+  "version": "2.0.0",
+  "description": "输入一段内容，AI 推荐与之相似的文章、商品或解决方案，用于知识推荐和营销",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "相似推荐",
+    "内容推荐",
+    "协同过滤",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

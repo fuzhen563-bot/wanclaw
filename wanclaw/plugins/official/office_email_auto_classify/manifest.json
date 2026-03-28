@@ -1,0 +1,24 @@
+{
+  "name": "office_email_auto_classify",
+  "version": "2.0.0",
+  "description": "根据发件人、主题、关键词自动将邮件分类到指定文件夹，支持规则组合",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "邮件",
+    "分类",
+    "归档",
+    "自动化",
+    "办公"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "email"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

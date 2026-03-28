@@ -1,0 +1,24 @@
+{
+  "name": "data_sync_sheets",
+  "version": "2.0.0",
+  "description": "经营数据自动同步至飞书多维表格或钉钉表格，定时推送，支持自定义字段映射",
+  "author": "WanClaw",
+  "category": "data",
+  "keywords": [
+    "飞书",
+    "钉钉",
+    "数据同步",
+    "表格"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

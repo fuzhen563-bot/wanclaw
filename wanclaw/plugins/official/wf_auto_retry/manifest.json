@@ -1,0 +1,23 @@
+{
+  "name": "wf_auto_retry",
+  "version": "2.0.0",
+  "description": "工作流节点执行失败时自动重试，支持设置重试次数、间隔、可跳过的错误类型",
+  "author": "WanClaw",
+  "category": "workflow",
+  "keywords": [
+    "重试",
+    "容错",
+    "工作流",
+    "失败处理"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

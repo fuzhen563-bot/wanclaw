@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.im_mute_schedule",
+  "plugin_name": "静音时段定时开关",
+  "plugin_type": "skill",
+  "description": "设置消息免打扰时段，自动开启/关闭消息免打扰，支持工作日/周末不同规则",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "im",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "静音",
+    "免打扰",
+    "定时",
+    "私域",
+    "微信"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "IM智能客服"
+  ]
+}

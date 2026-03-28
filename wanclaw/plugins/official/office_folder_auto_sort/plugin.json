@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.office_folder_auto_sort",
+  "plugin_name": "文件夹自动整理归档",
+  "plugin_type": "skill",
+  "description": "按文件类型、日期、名称等规则自动整理文件夹，支持自定义规则、定期自动执行",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "文件夹",
+    "整理",
+    "归档",
+    "自动化",
+    "办公"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "办公RPA"
+  ]
+}

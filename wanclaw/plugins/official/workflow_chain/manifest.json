@@ -1,0 +1,21 @@
+{
+  "name": "workflow_chain",
+  "version": "2.0.0",
+  "description": "工作流编排：多个技能链式执行、条件分支、循环处理",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "工作流",
+    "编排",
+    "链式",
+    "ai"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

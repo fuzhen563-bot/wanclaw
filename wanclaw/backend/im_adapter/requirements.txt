@@ -1,0 +1,42 @@
+# WanClaw IM适配器依赖包
+# 核心依赖
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.4.0
+httpx>=0.25.0
+websockets>=12.0
+python-telegram-bot>=20.3  # Telegram适配器需要
+pyyaml>=6.0
+
+# 企业微信SDK（可选）
+# wechatpy>=2.0.0
+
+# 飞书SDK（可选）
+# lark-oapi>=1.0.0
+
+# OneBot协议支持（可选）
+# aiohttp>=3.8.0
+# aiocqhttp>=1.4.0
+
+# 异步工具
+asyncio>=3.4.3
+aiofiles>=23.2.0
+
+# 日志和监控
+structlog>=23.2.0
+prometheus-client>=0.18.0
+
+# 测试依赖
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# 开发工具
+black>=23.11.0
+isort>=5.12.0
+mypy>=1.7.0
+flake8>=6.1.0
+
+# 其他工具
+python-dotenv>=1.0.0
+redis>=5.0.0  # 可选，用于消息队列

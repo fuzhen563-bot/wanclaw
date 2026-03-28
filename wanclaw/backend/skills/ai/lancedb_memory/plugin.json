@@ -1,0 +1,60 @@
+{
+  "name": "lancedb-memory",
+  "version": "1.0.0",
+  "display_name": "LanceDB 向量记忆",
+  "description": "基于 LanceDB 的向量语义记忆系统，支持语义搜索、会话管理、相似推荐",
+  "author": "WanClaw Team",
+  "license": "MIT",
+  "homepage": "https://github.com/wanclaw/wanclaw",
+  "repository": "https://github.com/wanclaw/wanclaw",
+  "min_wanclaw_version": "2.0.0",
+
+  "permissions": [
+    "network",
+    "filesystem:read",
+    "filesystem:write"
+  ],
+
+  "tags": [
+    "ai",
+    "memory",
+    "vector-search",
+    "rag",
+    "embedding"
+  ],
+
+  "skills": [
+    {
+      "name": "LanceDBMemory",
+      "type": "builtin",
+      "entry": "lancedb_memory/__init__.py"
+    }
+  ],
+
+  "config": {
+    "embedding_model": {
+      "type": "string",
+      "default": "nomic-embed-text",
+      "description": "Ollama 嵌入模型名称"
+    },
+    "data_dir": {
+      "type": "string",
+      "default": "./data/lancedb_memory",
+      "description": "LanceDB 数据存储路径"
+    },
+    "default_limit": {
+      "type": "integer",
+      "default": 20,
+      "description": "默认返回记忆数量"
+    }
+  },
+
+  "dependencies": {
+    "lancedb": ">=0.13.0",
+    "transformers": ">=4.36.0"
+  },
+
+  "changelog": [
+    {"version": "1.0.0", "date": "2026-03-26", "changes": "初始版本"}
+  ]
+}

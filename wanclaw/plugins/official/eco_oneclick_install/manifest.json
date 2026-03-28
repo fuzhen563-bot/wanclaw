@@ -1,0 +1,24 @@
+{
+  "name": "eco_oneclick_install",
+  "version": "2.0.0",
+  "description": "从ClawHub生态站一键安装插件，自动处理依赖，支持版本升级和回滚",
+  "author": "WanClaw",
+  "category": "ecosystem",
+  "keywords": [
+    "插件安装",
+    "升级",
+    "卸载",
+    "生态站"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

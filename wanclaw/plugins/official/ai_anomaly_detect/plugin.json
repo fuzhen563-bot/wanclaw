@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ai_anomaly_detect",
+  "plugin_name": "异常数据检测",
+  "plugin_type": "skill",
+  "description": "自动识别数据中的异常值和异常事件，标注异常点并给出可能原因分析",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "异常检测",
+    "离群点",
+    "数据质量",
+    "AI"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

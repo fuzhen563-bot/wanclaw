@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.ai_seo_optimize",
+  "plugin_name": "SEO 标题描述优化",
+  "plugin_type": "skill",
+  "description": "输入文章或产品标题，AI 优化 SEO 元标签（Title/Meta/关键词），提升搜索排名",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "SEO",
+    "搜索引擎优化",
+    "标题优化",
+    "AI"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

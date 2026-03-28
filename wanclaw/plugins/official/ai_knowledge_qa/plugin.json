@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.ai_knowledge_qa",
+  "plugin_name": "知识库智能问答",
+  "plugin_type": "skill",
+  "description": "基于企业知识库进行 RAG 检索问答，支持上传文档构建知识库，精准回答内部问题",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "知识库",
+    "RAG",
+    "问答",
+    "检索增强",
+    "AI"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

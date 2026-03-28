@@ -1,0 +1,32 @@
+{
+  "plugin_id": "wanclaw.ops_remote_restart",
+  "plugin_name": "远程服务一键重启",
+  "plugin_type": "skill",
+  "description": "通过API或管理后台远程重启指定服务，支持服务分组、批量操作",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ops",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [],
+  "keywords": [
+    "远程重启",
+    "服务管理",
+    "运维"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [
+    "psutil"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "系统运维"
+  ]
+}

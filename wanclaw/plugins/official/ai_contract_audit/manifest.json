@@ -1,0 +1,24 @@
+{
+  "name": "ai_contract_audit",
+  "version": "2.0.0",
+  "description": "上传合同 PDF，自动识别风险条款、缺失条款、不合理条款，生成审查报告",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "合同审查",
+    "法务",
+    "风险识别",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

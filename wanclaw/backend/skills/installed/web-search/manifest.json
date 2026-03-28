@@ -1,0 +1,21 @@
+{
+  "name": "web-search",
+  "version": "1.0.0",
+  "description": "搜索引擎查询，支持百度/必应/谷歌",
+  "author": "WanClaw",
+  "category": "tools",
+  "keywords": [
+    "搜索",
+    "search",
+    "百度",
+    "谷歌"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ]
+}

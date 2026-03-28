@@ -1,0 +1,24 @@
+{
+  "name": "ai_chart_generate",
+  "version": "2.0.0",
+  "description": "输入数据或描述，自动推荐最佳图表类型，生成可编辑的图表，支持 PNG/SVG/Excel",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "图表",
+    "可视化",
+    "自动生成",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

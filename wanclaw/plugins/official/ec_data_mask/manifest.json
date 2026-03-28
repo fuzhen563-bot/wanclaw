@@ -1,0 +1,25 @@
+{
+  "name": "ec_data_mask",
+  "version": "2.0.0",
+  "description": "订单数据导出时自动脱敏（手机号、地址、姓名），支持自定义脱敏规则，满足数据安全合规",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "脱敏",
+    "数据安全",
+    "隐私",
+    "导出",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

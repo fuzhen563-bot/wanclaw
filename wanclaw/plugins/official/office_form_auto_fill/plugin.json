@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.office_form_auto_fill",
+  "plugin_name": "网页表单自动填充",
+  "plugin_type": "skill",
+  "description": "预设数据自动填充网页表单，支持批量导入、多表单、自动提交",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "表单填充",
+    "RPA",
+    "自动化",
+    "办公"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [
+    "selenium"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "办公RPA"
+  ]
+}

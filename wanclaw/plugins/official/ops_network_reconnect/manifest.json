@@ -1,0 +1,21 @@
+{
+  "name": "ops_network_reconnect",
+  "version": "2.0.0",
+  "description": "检测网络连接状态，断开后自动重连，失败后告警通知",
+  "author": "WanClaw",
+  "category": "ops",
+  "keywords": [
+    "网络",
+    "重连",
+    "自愈",
+    "运维"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

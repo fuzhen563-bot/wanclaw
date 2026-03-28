@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ai_pdf_qa",
+  "plugin_name": "PDF 文档问答",
+  "plugin_type": "skill",
+  "description": "上传 PDF 文档，用自然语言提问，AI 在文档范围内精准回答，标注答案所在页码",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "keywords": [
+    "PDF问答",
+    "文档理解",
+    "PDF阅读",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

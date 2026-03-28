@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.data_channel_stats",
+  "plugin_name": "客户来源渠道分析",
+  "plugin_type": "skill",
+  "description": "分析客户来源渠道（搜索/广告/社群/活动等），统计各渠道转化率和ROI",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "data",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "database",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "渠道分析",
+    "来源统计",
+    "ROI",
+    "转化率"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "数据统计"
+  ]
+}

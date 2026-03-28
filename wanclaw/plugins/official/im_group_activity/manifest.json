@@ -1,0 +1,24 @@
+{
+  "name": "im_group_activity",
+  "version": "2.0.0",
+  "description": "自动统计群的发言人数、消息数量、活跃时段，生成日/周/月度群运营报告",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "群活跃度",
+    "统计分析",
+    "社群运营",
+    "微信"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

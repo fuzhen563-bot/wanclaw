@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ai_contract_audit",
+  "plugin_name": "合同智能审查",
+  "plugin_type": "skill",
+  "description": "上传合同 PDF，自动识别风险条款、缺失条款、不合理条款，生成审查报告",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "keywords": [
+    "合同审查",
+    "法务",
+    "风险识别",
+    "AI"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

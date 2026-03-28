@@ -1,0 +1,23 @@
+{
+  "name": "security_scanner",
+  "version": "2.0.0",
+  "description": "安全扫描：代码安全扫描、敏感信息检测、漏洞检测",
+  "author": "WanClaw",
+  "category": "security",
+  "keywords": [
+    "安全",
+    "扫描",
+    "漏洞",
+    "security"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

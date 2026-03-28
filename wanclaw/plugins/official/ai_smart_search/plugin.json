@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ai_smart_search",
+  "plugin_name": "智能语义搜索",
+  "plugin_type": "skill",
+  "description": "超越关键词匹配，理解搜索意图，返回语义最相关的文档和内容片段",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "语义搜索",
+    "智能搜索",
+    "全文检索",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

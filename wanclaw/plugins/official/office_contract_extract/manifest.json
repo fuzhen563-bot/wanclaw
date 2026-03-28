@@ -1,0 +1,27 @@
+{
+  "name": "office_contract_extract",
+  "version": "2.0.0",
+  "description": "自动识别PDF/图片合同中的关键要素：甲乙方、金额、期限、违约条款，高亮标注",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "合同",
+    "提取",
+    "NLP",
+    "要素识别",
+    "办公"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "pytesseract"
+  ],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

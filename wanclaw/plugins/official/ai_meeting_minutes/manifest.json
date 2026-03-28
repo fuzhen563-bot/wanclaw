@@ -1,0 +1,25 @@
+{
+  "name": "ai_meeting_minutes",
+  "version": "2.0.0",
+  "description": "上传会议录音或文字记录，AI 自动生成结构化会议纪要，包含决议、待办和负责人",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "会议纪要",
+    "会议记录",
+    "待办事项",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "im_inbox_unified",
+  "version": "2.0.0",
+  "description": "聚合企业微信/钉钉/飞书/Telegram等消息，统一展示、回复、检索，支持会话合并",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "统一收件箱",
+    "多平台",
+    "消息聚合",
+    "IM"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

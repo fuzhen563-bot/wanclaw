@@ -1,0 +1,24 @@
+{
+  "name": "ai_trend_predict",
+  "version": "2.0.0",
+  "description": "基于历史数据预测未来趋势（销售/流量/库存），输出预测值和置信区间",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "趋势预测",
+    "时序预测",
+    "销量预测",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

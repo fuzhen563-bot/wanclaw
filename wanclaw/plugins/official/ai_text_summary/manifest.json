@@ -1,0 +1,23 @@
+{
+  "name": "ai_text_summary",
+  "version": "2.0.0",
+  "description": "长篇文章、会议记录、报告自动摘要为关键要点，支持指定摘要长度",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "摘要",
+    "文章摘要",
+    "关键要点",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

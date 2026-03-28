@@ -1,0 +1,25 @@
+{
+  "name": "batch_file_processor",
+  "version": "2.0.0",
+  "description": "批量文件：批量转换格式、压缩解压、批量重命名、格式统一",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "批量",
+    "文件",
+    "转换",
+    "压缩",
+    "office"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

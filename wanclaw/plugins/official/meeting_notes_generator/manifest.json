@@ -1,0 +1,20 @@
+{
+  "name": "meeting_notes_generator",
+  "version": "2.0.0",
+  "description": "会议纪要：根据会议内容自动生成结构化会议纪要、待办事项",
+  "author": "WanClaw",
+  "category": "management",
+  "keywords": [
+    "会议",
+    "纪要",
+    "management"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

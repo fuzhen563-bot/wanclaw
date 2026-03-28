@@ -1,0 +1,24 @@
+{
+  "name": "ai_image_moderation",
+  "version": "2.0.0",
+  "description": "自动检测图片中的色情、暴恐、政治敏感等违规内容，返回风险评分和位置",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "图片审核",
+    "内容安全",
+    "鉴黄",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

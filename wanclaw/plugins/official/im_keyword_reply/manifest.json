@@ -1,0 +1,24 @@
+{
+  "name": "im_keyword_reply",
+  "version": "2.0.0",
+  "description": "根据消息关键词自动匹配回复内容，支持正则表达式、模糊匹配、多答案随机回复",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "关键词",
+    "自动回复",
+    "触发",
+    "客服",
+    "私域"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

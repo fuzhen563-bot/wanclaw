@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.ec_order_remark",
+  "plugin_name": "淘宝订单自动备注",
+  "plugin_type": "skill",
+  "description": "淘宝/天猫订单自动识别买家留言并打标备注，支持关键词匹配、颜色尺码提取、发货时间承诺",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ecommerce",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "淘宝",
+    "天猫",
+    "订单备注",
+    "打标",
+    "电商"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "电商自动化"
+  ]
+}

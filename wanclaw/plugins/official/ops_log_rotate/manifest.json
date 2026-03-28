@@ -1,0 +1,24 @@
+{
+  "name": "ops_log_rotate",
+  "version": "2.0.0",
+  "description": "日志文件按大小或日期自动切割，压缩归档，保留指定天数历史日志",
+  "author": "WanClaw",
+  "category": "ops",
+  "keywords": [
+    "日志切割",
+    "logrotate",
+    "归档",
+    "运维"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

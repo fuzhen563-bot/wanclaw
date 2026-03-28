@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.ai_translate",
+  "plugin_name": "多语言自动翻译",
+  "plugin_type": "skill",
+  "description": "支持中英日韩法德等30+语言互译，批量翻译文档、聊天记录、商品信息",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "翻译",
+    "多语言",
+    "互译",
+    "AI"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

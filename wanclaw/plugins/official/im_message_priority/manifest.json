@@ -1,0 +1,24 @@
+{
+  "name": "im_message_priority",
+  "version": "2.0.0",
+  "description": "基于消息内容和客户画像自动分级（紧急/重要/普通），优先推送高价值客户消息",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "消息分级",
+    "优先级",
+    "客户分层",
+    "私域"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

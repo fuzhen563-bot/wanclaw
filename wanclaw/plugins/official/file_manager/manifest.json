@@ -1,0 +1,25 @@
+{
+  "name": "file_manager",
+  "version": "2.0.0",
+  "description": "文件管理：批量重命名、分类整理、搜索查找、权限管理",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "文件",
+    "重命名",
+    "整理",
+    "搜索",
+    "office"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

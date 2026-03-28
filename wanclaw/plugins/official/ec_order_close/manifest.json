@@ -1,0 +1,25 @@
+{
+  "name": "ec_order_close",
+  "version": "2.0.0",
+  "description": "电商平台超时未支付订单自动关闭，释放库存，支持自定义超时时间规则",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "订单",
+    "超时",
+    "自动关闭",
+    "库存释放",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

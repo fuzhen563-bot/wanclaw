@@ -1,0 +1,28 @@
+{
+  "name": "office_image_processor",
+  "version": "2.0.0",
+  "description": "批量压缩图片、调整尺寸、裁剪、加logo/水印，支持JPG/PNG/GIF/WebP格式",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "图片",
+    "压缩",
+    "裁剪",
+    "水印",
+    "批量",
+    "办公"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "Pillow"
+  ],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

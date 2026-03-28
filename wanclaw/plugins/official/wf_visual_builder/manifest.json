@@ -1,0 +1,23 @@
+{
+  "name": "wf_visual_builder",
+  "version": "2.0.0",
+  "description": "拖拽式可视化工作流设计器，支持连线和节点配置，在线保存和调试",
+  "author": "WanClaw",
+  "category": "workflow",
+  "keywords": [
+    "工作流",
+    "可视化",
+    "拖拽",
+    "编排"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

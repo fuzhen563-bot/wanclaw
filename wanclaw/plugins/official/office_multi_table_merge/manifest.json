@@ -1,0 +1,28 @@
+{
+  "name": "office_multi_table_merge",
+  "version": "2.0.0",
+  "description": "将多个结构相同或不同的表格按字段关联汇总，支持vlookup、数据透视",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "汇总",
+    "合并",
+    "表格",
+    "vlookup",
+    "办公"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "pandas",
+    "openpyxl"
+  ],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

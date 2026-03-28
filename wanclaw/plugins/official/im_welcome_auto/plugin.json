@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.im_welcome_auto",
+  "plugin_name": "新人入群自动欢迎",
+  "plugin_type": "skill",
+  "description": "新成员加入群聊时自动发送欢迎语，支持@mention、自定义文案、间隔发送避免频繁",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "im",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "群欢迎",
+    "欢迎语",
+    "自动发送",
+    "私域",
+    "微信"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "IM智能客服"
+  ]
+}

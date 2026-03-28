@@ -1,0 +1,24 @@
+{
+  "name": "ai_xiaohongshu",
+  "version": "2.0.0",
+  "description": "输入产品信息或话题，自动生成小红书风格图文笔记，包含emoji、标签和互动话术",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "小红书",
+    "种草",
+    "文案",
+    "社交媒体",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

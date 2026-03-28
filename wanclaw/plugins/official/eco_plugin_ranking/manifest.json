@@ -1,0 +1,23 @@
+{
+  "name": "eco_plugin_ranking",
+  "version": "2.0.0",
+  "description": "按下载量、评分、好评率等多维度展示插件排行榜，推荐优质插件",
+  "author": "WanClaw",
+  "category": "ecosystem",
+  "keywords": [
+    "排行榜",
+    "插件排行",
+    "推荐",
+    "生态站"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

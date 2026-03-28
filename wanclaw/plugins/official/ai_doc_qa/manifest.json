@@ -1,0 +1,25 @@
+{
+  "name": "ai_doc_qa",
+  "version": "2.0.0",
+  "description": "上传 PDF/Word/Excel 后，直接用自然语言提问，AI 从文档中找出答案并标注来源",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "文档问答",
+    "PDF",
+    "Word",
+    "问答",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

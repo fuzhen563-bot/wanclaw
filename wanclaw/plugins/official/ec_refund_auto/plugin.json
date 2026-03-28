@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.ec_refund_auto",
+  "plugin_name": "拼多多售后自动退款",
+  "plugin_type": "skill",
+  "description": "拼多多售后单自动审核，符合条件自动同意退款退货，异常单标记人工处理",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ecommerce",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "拼多多",
+    "售后",
+    "退款",
+    "自动审核",
+    "电商"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "电商自动化"
+  ]
+}

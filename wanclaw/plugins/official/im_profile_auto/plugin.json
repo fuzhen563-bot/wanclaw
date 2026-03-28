@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.im_profile_auto",
+  "plugin_name": "客户画像自动记录",
+  "plugin_type": "skill",
+  "description": "自动记录客户的基础信息、咨询内容、购买记录，构建完整客户画像并打标签",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "im",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "客户画像",
+    "标签",
+    "私域运营",
+    "CRM"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "IM智能客服"
+  ]
+}

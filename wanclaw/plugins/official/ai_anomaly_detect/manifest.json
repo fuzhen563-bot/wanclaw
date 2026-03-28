@@ -1,0 +1,24 @@
+{
+  "name": "ai_anomaly_detect",
+  "version": "2.0.0",
+  "description": "自动识别数据中的异常值和异常事件，标注异常点并给出可能原因分析",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "异常检测",
+    "离群点",
+    "数据质量",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

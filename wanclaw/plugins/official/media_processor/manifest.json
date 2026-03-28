@@ -1,0 +1,24 @@
+{
+  "name": "media_processor",
+  "version": "2.0.0",
+  "description": "媒体处理：图片压缩、视频转码、音频提取、格式转换",
+  "author": "WanClaw",
+  "category": "marketing",
+  "keywords": [
+    "媒体",
+    "图片",
+    "视频",
+    "marketing"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

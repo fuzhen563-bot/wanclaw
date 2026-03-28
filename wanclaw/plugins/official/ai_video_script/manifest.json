@@ -1,0 +1,23 @@
+{
+  "name": "ai_video_script",
+  "version": "2.0.0",
+  "description": "输入视频主题，自动生成完整视频脚本，包含开场、转折、高潮、结尾和字幕文案",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "视频脚本",
+    "短视频",
+    "口播",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

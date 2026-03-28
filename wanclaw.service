@@ -1,0 +1,26 @@
+[Unit]
+Description=WanClaw AI Assistant
+Comment=版权所有 © 2025-2026 厦门万岳科技有限公司
+Documentation=https://github.com/fuzhen563-bot/wanclaw
+After=network.target network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=wanclaw
+Group=wanclaw
+WorkingDirectory=/opt/wanclaw
+Environment=PATH=/opt/wanclaw/.venv/bin:/usr/local/bin:/usr/bin:/bin
+Environment=PYTHONPATH=/opt/wanclaw
+ExecStart=/opt/wanclaw/.venv/bin/python -m uvicorn wanclaw.backend.im_adapter.api:app --host 0.0.0.0 --port 8000
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=wanclaw
+TimeoutStopSec=30
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target

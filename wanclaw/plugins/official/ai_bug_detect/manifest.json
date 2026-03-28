@@ -1,0 +1,24 @@
+{
+  "name": "ai_bug_detect",
+  "version": "2.0.0",
+  "description": "扫描代码自动发现潜在 Bug、安全漏洞、性能问题，提供修复建议和示例代码",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "Bug检测",
+    "漏洞扫描",
+    "静态分析",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ai_vector_search",
+  "version": "2.0.0",
+  "description": "将文档、图片等内容向量化，支持语义相似度搜索，返回最相关结果",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "向量",
+    "语义搜索",
+    "embedding",
+    "相似度",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

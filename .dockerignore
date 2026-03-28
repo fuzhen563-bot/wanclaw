@@ -1,0 +1,38 @@
+# Ignore large kernel/build artifacts
+wanclaw/wanclaw/frontend/boot/
+wanclaw/wanclaw/frontend/opt/
+wanclaw/wanclaw/frontend/dev/
+wanclaw/wanclaw/wanclaw/frontend/boot/
+wanclaw/wanclaw/wanclaw/frontend/opt/
+wanclaw/wanclaw/wanclaw/frontend/dev/
+
+# Ignore venv, cache, logs
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignore test/dev files
+tests/
+docs/
+scripts/
+*.md
+
+# Ignore other large unnecessary dirs
+data/
+logs/
+plugins/
+
+# Docker/Vagrant
+Dockerfile.dev
+docker-compose*.yml
+docker-compose*.dev.yml
+*.log
+*.pid

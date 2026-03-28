@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.im_transfer_handoff",
+  "plugin_name": "客服会话智能转接",
+  "plugin_type": "skill",
+  "description": "根据客服技能组、在线状态、客户级别自动转接会话，支持转接历史记录",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "im",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "转接",
+    "会话",
+    "客服",
+    "工单",
+    "IM"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "IM智能客服"
+  ]
+}

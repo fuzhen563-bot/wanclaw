@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ai_bug_detect",
+  "plugin_name": "Bug 自动检测",
+  "plugin_type": "skill",
+  "description": "扫描代码自动发现潜在 Bug、安全漏洞、性能问题，提供修复建议和示例代码",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "keywords": [
+    "Bug检测",
+    "漏洞扫描",
+    "静态分析",
+    "AI"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

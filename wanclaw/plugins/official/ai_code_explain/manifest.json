@@ -1,0 +1,24 @@
+{
+  "name": "ai_code_explain",
+  "version": "2.0.0",
+  "description": "上传代码片段，自动解释逻辑并给出优化重构建议，支持多语言",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "代码解释",
+    "重构",
+    "code review",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

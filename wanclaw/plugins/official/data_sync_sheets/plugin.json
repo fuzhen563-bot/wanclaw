@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.data_sync_sheets",
+  "plugin_name": "数据同步至飞书/钉钉",
+  "plugin_type": "skill",
+  "description": "经营数据自动同步至飞书多维表格或钉钉表格，定时推送，支持自定义字段映射",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "data",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "飞书",
+    "钉钉",
+    "数据同步",
+    "表格"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "数据统计"
+  ]
+}

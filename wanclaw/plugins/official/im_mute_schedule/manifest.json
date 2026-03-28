@@ -1,0 +1,24 @@
+{
+  "name": "im_mute_schedule",
+  "version": "2.0.0",
+  "description": "设置消息免打扰时段，自动开启/关闭消息免打扰，支持工作日/周末不同规则",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "静音",
+    "免打扰",
+    "定时",
+    "私域",
+    "微信"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

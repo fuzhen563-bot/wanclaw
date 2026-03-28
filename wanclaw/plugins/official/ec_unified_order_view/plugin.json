@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ec_unified_order_view",
+  "plugin_name": "多店铺订单统一视图",
+  "plugin_type": "skill",
+  "description": "聚合淘宝/京东/拼多多/抖音/快手等多平台订单，统一展示、筛选、导出",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ecommerce",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "多平台",
+    "订单聚合",
+    "统一视图",
+    "电商"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "电商自动化"
+  ]
+}

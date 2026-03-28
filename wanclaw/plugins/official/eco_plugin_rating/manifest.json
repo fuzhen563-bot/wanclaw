@@ -1,0 +1,23 @@
+{
+  "name": "eco_plugin_rating",
+  "version": "2.0.0",
+  "description": "用户对插件进行1-5星评分和文字评论，支持查看插件评价和评分趋势",
+  "author": "WanClaw",
+  "category": "ecosystem",
+  "keywords": [
+    "插件评分",
+    "评论",
+    "评价",
+    "生态站"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

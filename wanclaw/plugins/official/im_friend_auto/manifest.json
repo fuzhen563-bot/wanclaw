@@ -1,0 +1,24 @@
+{
+  "name": "im_friend_auto",
+  "version": "2.0.0",
+  "description": "新好友申请自动通过、按来源渠道自动打标签，支持企业微信/微信/QQ等多平台",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "好友",
+    "自动通过",
+    "打标签",
+    "私域",
+    "微信"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ec_tracking_auto",
+  "version": "2.0.0",
+  "description": "发货时自动识别快递单号格式、回填物流信息、异常单号自动提醒",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "物流",
+    "快递",
+    "单号识别",
+    "回填",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

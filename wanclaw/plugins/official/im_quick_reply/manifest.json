@@ -1,0 +1,23 @@
+{
+  "name": "im_quick_reply",
+  "version": "2.0.0",
+  "description": "常用话术模板库，支持分类管理、快捷搜索、一键发送，提高客服效率",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "快捷回复",
+    "话术库",
+    "模板",
+    "客服"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

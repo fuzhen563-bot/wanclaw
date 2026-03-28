@@ -1,0 +1,36 @@
+{
+  "plugin_id": "skill.spreadsheet_handler",
+  "plugin_name": "表格处理器",
+  "plugin_type": "skill",
+  "description": "表格处理：数据透视、公式计算、图表生成、条件格式",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read"
+  ],
+  "keywords": [
+    "表格",
+    "透视",
+    "公式",
+    "图表",
+    "office"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [
+    "openpyxl"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "office"
+  ]
+}

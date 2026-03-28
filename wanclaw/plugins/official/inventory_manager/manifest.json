@@ -1,0 +1,22 @@
+{
+  "name": "inventory_manager",
+  "version": "2.0.0",
+  "description": "库存管理：库存查询、预警提醒、出入库记录、盘点",
+  "author": "WanClaw",
+  "category": "management",
+  "keywords": [
+    "库存",
+    "管理",
+    "management"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ec_stock_alert",
+  "version": "2.0.0",
+  "description": "商品库存低于预设阈值时自动告警，支持多平台店铺、多SKU监控，消息推送到钉钉/飞书/邮件",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "库存",
+    "告警",
+    "阈值",
+    "库存预警",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

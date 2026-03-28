@@ -1,0 +1,37 @@
+{
+  "plugin_id": "skill.excel_processor",
+  "plugin_name": "Excel处理",
+  "plugin_type": "skill",
+  "description": "Excel处理：多表合并、拆分、去重、筛选、排序、汇总，生成日报周报月报，批量替换格式",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read"
+  ],
+  "keywords": [
+    "excel",
+    "表格",
+    "合并",
+    "拆分",
+    "报表",
+    "office"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [
+    "openpyxl"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "office"
+  ]
+}

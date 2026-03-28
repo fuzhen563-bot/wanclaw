@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.ec_shipment_sync",
+  "plugin_name": "抖店自动发货同步",
+  "plugin_type": "skill",
+  "description": "抖音小店订单自动抓取、物流信息自动回填、发货状态自动同步至平台",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ecommerce",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "抖音",
+    "抖店",
+    "自动发货",
+    "物流同步",
+    "电商"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "电商自动化"
+  ]
+}

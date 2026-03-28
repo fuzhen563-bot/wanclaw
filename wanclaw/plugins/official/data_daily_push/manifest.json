@@ -1,0 +1,23 @@
+{
+  "name": "data_daily_push",
+  "version": "2.0.0",
+  "description": "每天定时将核心经营指标（销售额/订单数/客单价）推送至钉钉群/邮件/微信",
+  "author": "WanClaw",
+  "category": "data",
+  "keywords": [
+    "数据推送",
+    "每日简报",
+    "经营数据"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

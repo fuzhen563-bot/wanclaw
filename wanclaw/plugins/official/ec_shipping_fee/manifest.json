@@ -1,0 +1,24 @@
+{
+  "name": "ec_shipping_fee",
+  "version": "2.0.0",
+  "description": "根据商品重量、地区、快递公司自动计算运费，支持首重续重、满减包邮规则",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "运费",
+    "物流计算",
+    "快递",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ai_code_explain",
+  "plugin_name": "代码解释与重构",
+  "plugin_type": "skill",
+  "description": "上传代码片段，自动解释逻辑并给出优化重构建议，支持多语言",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "keywords": [
+    "代码解释",
+    "重构",
+    "code review",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ec_shipping_fee",
+  "plugin_name": "运费智能计算",
+  "plugin_type": "skill",
+  "description": "根据商品重量、地区、快递公司自动计算运费，支持首重续重、满减包邮规则",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ecommerce",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "运费",
+    "物流计算",
+    "快递",
+    "电商"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "电商自动化"
+  ]
+}

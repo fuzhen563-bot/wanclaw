@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.office_email_auto_classify",
+  "plugin_name": "邮件自动分类归档",
+  "plugin_type": "skill",
+  "description": "根据发件人、主题、关键词自动将邮件分类到指定文件夹，支持规则组合",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "email"
+  ],
+  "keywords": [
+    "邮件",
+    "分类",
+    "归档",
+    "自动化",
+    "办公"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "办公RPA"
+  ]
+}

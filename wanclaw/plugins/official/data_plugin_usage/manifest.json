@@ -1,0 +1,22 @@
+{
+  "name": "data_plugin_usage",
+  "version": "2.0.0",
+  "description": "统计各插件的使用频率、执行成功率、平均耗时，支持按团队/用户筛选",
+  "author": "WanClaw",
+  "category": "data",
+  "keywords": [
+    "插件统计",
+    "使用数据",
+    "分析"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

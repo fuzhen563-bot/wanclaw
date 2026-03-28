@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ec_rto_ledger",
+  "plugin_name": "退换货自动台账",
+  "plugin_type": "skill",
+  "description": "电商退换货申请自动登记台账，跟踪处理进度，自动生成月度退换货报表",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ecommerce",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "退换货",
+    "台账",
+    "退货",
+    "电商"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "电商自动化"
+  ]
+}

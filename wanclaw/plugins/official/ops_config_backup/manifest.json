@@ -1,0 +1,23 @@
+{
+  "name": "ops_config_backup",
+  "version": "2.0.0",
+  "description": "配置文件修改时自动备份至指定目录，支持版本管理、超量自动清理",
+  "author": "WanClaw",
+  "category": "ops",
+  "keywords": [
+    "配置备份",
+    "版本管理",
+    "运维"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

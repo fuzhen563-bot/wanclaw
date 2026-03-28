@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.im_quick_reply",
+  "plugin_name": "快捷回复模板库",
+  "plugin_type": "skill",
+  "description": "常用话术模板库，支持分类管理、快捷搜索、一键发送，提高客服效率",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "im",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "database"
+  ],
+  "keywords": [
+    "快捷回复",
+    "话术库",
+    "模板",
+    "客服"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "IM智能客服"
+  ]
+}

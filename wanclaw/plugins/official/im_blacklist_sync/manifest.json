@@ -1,0 +1,25 @@
+{
+  "name": "im_blacklist_sync",
+  "version": "2.0.0",
+  "description": "黑名单用户跨平台同步，多平台自动拦截，永久封禁，支持手动添加和自动规则",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "黑名单",
+    "同步",
+    "封禁",
+    "私域",
+    "IM"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

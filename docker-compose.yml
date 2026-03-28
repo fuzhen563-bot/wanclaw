@@ -1,0 +1,64 @@
+# WanClaw - Docker Compose Configuration
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: wanclaw-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    networks:
+      - wanclaw-network
+
+  wanclaw:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: wanclaw
+    restart: unless-stopped
+    ports:
+      - "40712:8000"
+    volumes:
+      - ./data:/app/data
+      - ./wanclaw/backend/im_adapter/config:/app/config:ro
+      - ./logs:/app/logs
+      - ./plugins:/app/plugins
+    environment:
+      - WANCLAW_ENV=production
+      - WANCLAW_LOG_LEVEL=INFO
+      - WANCLAW_CONFIG_PATH=/app/wanclaw/backend/im_adapter/config
+      - WANCLAW_REDIS_URL=redis://redis:6379
+      - CLAWHUB_API_URL=https://wanhub.vanyue.cn/api/community
+    depends_on:
+      - redis
+    command: ["uvicorn", "wanclaw.backend.im_adapter.api:app", "--host", "0.0.0.0", "--port", "8000"]
+    networks:
+      - wanclaw-network
+
+  # Celery Worker (可选 - 用于异步任务)
+  celery-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: wanclaw-celery
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+    environment:
+      - WANCLAW_ENV=production
+      - WANCLAW_REDIS_URL=redis://redis:6379
+    command: ["celery", "-A", "wanclaw.backend.tasks.tasks", "worker", "--loglevel=info"]
+    depends_on:
+      - redis
+    networks:
+      - wanclaw-network
+
+volumes:
+  redis_data:
+
+networks:
+  wanclaw-network:
+    external: false

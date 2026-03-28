@@ -1,0 +1,25 @@
+{
+  "name": "ec_product_auto_listing",
+  "version": "2.0.0",
+  "description": "多平台电商商品定时上下架、库存为0自动下架、活动结束自动恢复，支持淘宝/京东/拼多多/抖音",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "商品",
+    "上下架",
+    "定时",
+    "库存",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

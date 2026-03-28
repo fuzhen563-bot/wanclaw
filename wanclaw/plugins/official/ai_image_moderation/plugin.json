@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ai_image_moderation",
+  "plugin_name": "图片内容安全审核",
+  "plugin_type": "skill",
+  "description": "自动检测图片中的色情、暴恐、政治敏感等违规内容，返回风险评分和位置",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "keywords": [
+    "图片审核",
+    "内容安全",
+    "鉴黄",
+    "AI"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

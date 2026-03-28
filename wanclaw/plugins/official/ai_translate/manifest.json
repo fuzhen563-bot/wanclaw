@@ -1,0 +1,23 @@
+{
+  "name": "ai_translate",
+  "version": "2.0.0",
+  "description": "支持中英日韩法德等30+语言互译，批量翻译文档、聊天记录、商品信息",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "翻译",
+    "多语言",
+    "互译",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

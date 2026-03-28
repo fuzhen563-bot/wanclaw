@@ -1,0 +1,21 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "多语言翻译（中英日韩法德等）",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "翻译",
+    "translate",
+    "多语言",
+    "语言"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ai_image_generate",
+  "version": "2.0.0",
+  "description": "输入文字描述自动生成图片，支持多种风格（写实/插画/动漫），可指定尺寸和比例",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "文生图",
+    "AI绘图",
+    "图像生成",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

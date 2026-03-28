@@ -1,0 +1,23 @@
+{
+  "name": "wf_condition_branch",
+  "version": "2.0.0",
+  "description": "工作流中支持IF/ELSE条件判断，根据数据动态选择执行分支",
+  "author": "WanClaw",
+  "category": "workflow",
+  "keywords": [
+    "工作流",
+    "条件分支",
+    "IF",
+    "判断"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

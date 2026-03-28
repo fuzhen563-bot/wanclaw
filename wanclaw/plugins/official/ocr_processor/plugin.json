@@ -1,0 +1,35 @@
+{
+  "plugin_id": "skill.ocr_processor",
+  "plugin_name": "OCR文字识别",
+  "plugin_type": "skill",
+  "description": "OCR识别：图片文字识别、PDF转文字、表格识别、批量识别",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read"
+  ],
+  "keywords": [
+    "ocr",
+    "识别",
+    "文字",
+    "ai"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [
+    "pytesseract"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "ai"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.ai_image_generate",
+  "plugin_name": "AI 文生图创作",
+  "plugin_type": "skill",
+  "description": "输入文字描述自动生成图片，支持多种风格（写实/插画/动漫），可指定尺寸和比例",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "文生图",
+    "AI绘图",
+    "图像生成",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

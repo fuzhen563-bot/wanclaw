@@ -1,0 +1,26 @@
+{
+  "name": "ai_report_auto",
+  "version": "2.0.0",
+  "description": "自动汇总订单、客服、销售数据，生成日报/周报/月报，支持导出Word/PDF",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "报告",
+    "日报",
+    "周报",
+    "AI生成",
+    "数据分析"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

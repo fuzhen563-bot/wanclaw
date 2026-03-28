@@ -1,0 +1,23 @@
+{
+  "name": "office_print_queue",
+  "version": "2.0.0",
+  "description": "批量文件加入打印队列，自动分页、自动排版、按打印机分配任务",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "打印",
+    "队列",
+    "自动化",
+    "办公"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.im_keyword_reply",
+  "plugin_name": "关键词触发自动回复",
+  "plugin_type": "skill",
+  "description": "根据消息关键词自动匹配回复内容，支持正则表达式、模糊匹配、多答案随机回复",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "im",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "关键词",
+    "自动回复",
+    "触发",
+    "客服",
+    "私域"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "IM智能客服"
+  ]
+}

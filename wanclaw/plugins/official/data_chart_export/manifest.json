@@ -1,0 +1,25 @@
+{
+  "name": "data_chart_export",
+  "version": "2.0.0",
+  "description": "数据一键生成折线图、柱状图、饼图、漏斗图，支持导出PNG/SVG/Excel",
+  "author": "WanClaw",
+  "category": "data",
+  "keywords": [
+    "图表",
+    "可视化",
+    "导出",
+    "报表"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "matplotlib"
+  ],
+  "permissions": [
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

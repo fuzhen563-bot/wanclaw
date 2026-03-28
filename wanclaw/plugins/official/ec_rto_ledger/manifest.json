@@ -1,0 +1,24 @@
+{
+  "name": "ec_rto_ledger",
+  "version": "2.0.0",
+  "description": "电商退换货申请自动登记台账，跟踪处理进度，自动生成月度退换货报表",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "退换货",
+    "台账",
+    "退货",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

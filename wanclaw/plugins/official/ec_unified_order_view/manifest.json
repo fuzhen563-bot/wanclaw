@@ -1,0 +1,24 @@
+{
+  "name": "ec_unified_order_view",
+  "version": "2.0.0",
+  "description": "聚合淘宝/京东/拼多多/抖音/快手等多平台订单，统一展示、筛选、导出",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "多平台",
+    "订单聚合",
+    "统一视图",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

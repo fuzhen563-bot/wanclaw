@@ -1,0 +1,25 @@
+{
+  "name": "ec_review_monitor",
+  "version": "2.0.0",
+  "description": "多平台买家差评、中差评实时监控，自动推送至钉钉/飞书/微信，提醒客服及时响应",
+  "author": "WanClaw",
+  "category": "ecommerce",
+  "keywords": [
+    "差评",
+    "监控",
+    "中差评",
+    "提醒",
+    "电商"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

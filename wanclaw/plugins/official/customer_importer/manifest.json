@@ -1,0 +1,24 @@
+{
+  "name": "customer_importer",
+  "version": "2.0.0",
+  "description": "客户导入：批量导入客户数据、重复检测、数据验证",
+  "author": "WanClaw",
+  "category": "marketing",
+  "keywords": [
+    "客户",
+    "导入",
+    "数据",
+    "marketing"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.ai_video_script",
+  "plugin_name": "视频脚本生成",
+  "plugin_type": "skill",
+  "description": "输入视频主题，自动生成完整视频脚本，包含开场、转折、高潮、结尾和字幕文案",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "视频脚本",
+    "短视频",
+    "口播",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

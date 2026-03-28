@@ -1,0 +1,38 @@
+{
+  "plugin_id": "wanclaw.office_web_scraper",
+  "plugin_name": "网页数据定时采集",
+  "plugin_type": "skill",
+  "description": "可视化配置采集规则，定时抓取网页数据，支持登录认证、翻页、增量采集",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "爬虫",
+    "采集",
+    "网页",
+    "数据",
+    "办公"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [
+    "requests",
+    "beautifulsoup4"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "办公RPA"
+  ]
+}

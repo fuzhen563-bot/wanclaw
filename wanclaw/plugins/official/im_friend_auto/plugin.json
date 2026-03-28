@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.im_friend_auto",
+  "plugin_name": "好友自动通过与打标",
+  "plugin_type": "skill",
+  "description": "新好友申请自动通过、按来源渠道自动打标签，支持企业微信/微信/QQ等多平台",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "im",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "好友",
+    "自动通过",
+    "打标签",
+    "私域",
+    "微信"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "IM智能客服"
+  ]
+}

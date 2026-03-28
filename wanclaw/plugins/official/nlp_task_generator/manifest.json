@@ -1,0 +1,21 @@
+{
+  "name": "nlp_task_generator",
+  "version": "2.0.0",
+  "description": "NLP任务：文本分类、情感分析、实体识别、关键词提取",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "nlp",
+    "自然语言",
+    "分类",
+    "ai"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

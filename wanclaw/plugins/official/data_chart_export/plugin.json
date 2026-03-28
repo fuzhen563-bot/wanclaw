@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.data_chart_export",
+  "plugin_name": "可视化图表导出",
+  "plugin_type": "skill",
+  "description": "数据一键生成折线图、柱状图、饼图、漏斗图，支持导出PNG/SVG/Excel",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "data",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:write"
+  ],
+  "keywords": [
+    "图表",
+    "可视化",
+    "导出",
+    "报表"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [
+    "matplotlib"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "数据统计"
+  ]
+}

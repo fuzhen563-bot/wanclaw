@@ -1,0 +1,25 @@
+{
+  "name": "ai_image_edit",
+  "version": "2.0.0",
+  "description": "AI 驱动的图片编辑，支持局部重绘、背景消除、画质增强、人像精修",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "图片编辑",
+    "AI修图",
+    "局部重绘",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

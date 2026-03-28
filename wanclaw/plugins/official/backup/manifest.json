@@ -1,0 +1,23 @@
+{
+  "name": "backup",
+  "version": "2.0.0",
+  "description": "数据备份：文件备份、定时备份、增量备份、压缩存储",
+  "author": "WanClaw",
+  "category": "ops",
+  "keywords": [
+    "备份",
+    "数据",
+    "ops"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

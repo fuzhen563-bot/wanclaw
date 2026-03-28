@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.office_batch_rename",
+  "plugin_name": "批量文件规则重命名",
+  "plugin_type": "skill",
+  "description": "按前缀/后缀/序号/日期等规则批量重命名文件，支持预览和撤销",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "重命名",
+    "批量",
+    "文件",
+    "自动化",
+    "办公"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "办公RPA"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "im_profile_auto",
+  "version": "2.0.0",
+  "description": "自动记录客户的基础信息、咨询内容、购买记录，构建完整客户画像并打标签",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "客户画像",
+    "标签",
+    "私域运营",
+    "CRM"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

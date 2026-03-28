@@ -1,0 +1,21 @@
+{
+  "name": "excel-merge",
+  "version": "1.0.0",
+  "description": "合并多个 Excel 文件到一个工作表",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "excel",
+    "合并",
+    "表格",
+    "报表"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "filesystem:./data"
+  ],
+  "platforms": [
+    "all"
+  ]
+}

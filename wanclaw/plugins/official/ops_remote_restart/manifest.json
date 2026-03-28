@@ -1,0 +1,22 @@
+{
+  "name": "ops_remote_restart",
+  "version": "2.0.0",
+  "description": "通过API或管理后台远程重启指定服务，支持服务分组、批量操作",
+  "author": "WanClaw",
+  "category": "ops",
+  "keywords": [
+    "远程重启",
+    "服务管理",
+    "运维"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "psutil"
+  ],
+  "permissions": [],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

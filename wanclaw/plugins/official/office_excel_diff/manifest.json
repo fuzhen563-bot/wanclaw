@@ -1,0 +1,26 @@
+{
+  "name": "office_excel_diff",
+  "version": "2.0.0",
+  "description": "两个或多个Excel文件对比，快速找出差异单元格、新增行、删除行，高亮标注",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "Excel",
+    "对比",
+    "差异",
+    "表格",
+    "办公"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "openpyxl"
+  ],
+  "permissions": [
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

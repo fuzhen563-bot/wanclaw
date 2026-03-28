@@ -1,0 +1,33 @@
+{
+  "plugin_id": "skill.log_viewer",
+  "plugin_name": "日志查看器",
+  "plugin_type": "skill",
+  "description": "日志查看：日志搜索、实时tail、关键词过滤、日志分析",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ops",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read"
+  ],
+  "keywords": [
+    "日志",
+    "log",
+    "查看",
+    "ops"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "ops"
+  ]
+}

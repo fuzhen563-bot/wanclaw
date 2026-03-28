@@ -1,0 +1,28 @@
+{
+  "name": "office_web_scraper",
+  "version": "2.0.0",
+  "description": "可视化配置采集规则，定时抓取网页数据，支持登录认证、翻页、增量采集",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "爬虫",
+    "采集",
+    "网页",
+    "数据",
+    "办公"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "requests",
+    "beautifulsoup4"
+  ],
+  "permissions": [
+    "network",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

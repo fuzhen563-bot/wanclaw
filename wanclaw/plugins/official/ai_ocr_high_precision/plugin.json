@@ -1,0 +1,38 @@
+{
+  "plugin_id": "wanclaw.ai_ocr_high_precision",
+  "plugin_name": "高精度OCR识别",
+  "plugin_type": "skill",
+  "description": "票据、身份证、营业执照、合同等高精度识别，支持批量图片转文字，结构化输出",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read",
+    "network"
+  ],
+  "keywords": [
+    "OCR",
+    "文字识别",
+    "票据",
+    "身份证",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [
+    "pytesseract",
+    "Pillow"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

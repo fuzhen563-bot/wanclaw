@@ -1,0 +1,20 @@
+{
+  "name": "eco_permission_confirm",
+  "version": "2.0.0",
+  "description": "插件安装前展示所需权限清单，用户手动确认授权，支持权限粒度控制",
+  "author": "WanClaw",
+  "category": "ecosystem",
+  "keywords": [
+    "插件权限",
+    "安全确认",
+    "授权"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

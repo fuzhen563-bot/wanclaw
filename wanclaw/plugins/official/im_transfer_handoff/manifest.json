@@ -1,0 +1,25 @@
+{
+  "name": "im_transfer_handoff",
+  "version": "2.0.0",
+  "description": "根据客服技能组、在线状态、客户级别自动转接会话，支持转接历史记录",
+  "author": "WanClaw",
+  "category": "im",
+  "keywords": [
+    "转接",
+    "会话",
+    "客服",
+    "工单",
+    "IM"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

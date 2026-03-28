@@ -1,0 +1,38 @@
+{
+  "plugin_id": "wanclaw.office_image_processor",
+  "plugin_name": "图片批量处理",
+  "plugin_type": "skill",
+  "description": "批量压缩图片、调整尺寸、裁剪、加logo/水印，支持JPG/PNG/GIF/WebP格式",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "图片",
+    "压缩",
+    "裁剪",
+    "水印",
+    "批量",
+    "办公"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [
+    "Pillow"
+  ],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "办公RPA"
+  ]
+}

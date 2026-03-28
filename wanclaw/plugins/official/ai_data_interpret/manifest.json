@@ -1,0 +1,24 @@
+{
+  "name": "ai_data_interpret",
+  "version": "2.0.0",
+  "description": "上传 Excel/CSV 数据文件，AI 自动分析数据特征，发现规律，生成文字解读报告",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "数据分析",
+    "数据解读",
+    "Excel",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

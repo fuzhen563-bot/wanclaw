@@ -1,0 +1,23 @@
+{
+  "name": "wf_schedule_trigger",
+  "version": "2.0.0",
+  "description": "工作流支持定时触发（cron表达式），按日/周/月循环执行",
+  "author": "WanClaw",
+  "category": "workflow",
+  "keywords": [
+    "定时任务",
+    "Cron",
+    "工作流",
+    "触发"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

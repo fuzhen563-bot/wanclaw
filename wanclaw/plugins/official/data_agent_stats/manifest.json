@@ -1,0 +1,23 @@
+{
+  "name": "data_agent_stats",
+  "version": "2.0.0",
+  "description": "客服的接待消息数、平均响应时长、好评率实时统计，生成个人/团队排行榜",
+  "author": "WanClaw",
+  "category": "data",
+  "keywords": [
+    "客服统计",
+    "接待量",
+    "排行榜",
+    "客服"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

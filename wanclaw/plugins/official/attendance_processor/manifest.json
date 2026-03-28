@@ -1,0 +1,26 @@
+{
+  "name": "attendance_processor",
+  "version": "2.0.0",
+  "description": "考勤处理：导入打卡记录自动算工时、迟到、加班，生成工资表基础数据",
+  "author": "WanClaw",
+  "category": "management",
+  "keywords": [
+    "考勤",
+    "打卡",
+    "工资",
+    "management"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "openpyxl"
+  ],
+  "permissions": [
+    "filesystem:read",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

@@ -1,0 +1,33 @@
+{
+  "plugin_id": "skill.email_processor",
+  "plugin_name": "邮件处理",
+  "plugin_type": "skill",
+  "description": "邮件处理：批量读取、分类过滤、自动回复、附件提取",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "office",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "email"
+  ],
+  "keywords": [
+    "邮件",
+    "email",
+    "附件",
+    "office"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "office"
+  ]
+}

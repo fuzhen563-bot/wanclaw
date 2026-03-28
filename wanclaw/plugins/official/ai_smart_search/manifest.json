@@ -1,0 +1,24 @@
+{
+  "name": "ai_smart_search",
+  "version": "2.0.0",
+  "description": "超越关键词匹配，理解搜索意图，返回语义最相关的文档和内容片段",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "语义搜索",
+    "智能搜索",
+    "全文检索",
+    "AI"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

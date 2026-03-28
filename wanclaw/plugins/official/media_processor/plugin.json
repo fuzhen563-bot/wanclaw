@@ -1,0 +1,34 @@
+{
+  "plugin_id": "skill.media_processor",
+  "plugin_name": "媒体内容处理",
+  "plugin_type": "skill",
+  "description": "媒体处理：图片压缩、视频转码、音频提取、格式转换",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "marketing",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "媒体",
+    "图片",
+    "视频",
+    "marketing"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "marketing"
+  ]
+}

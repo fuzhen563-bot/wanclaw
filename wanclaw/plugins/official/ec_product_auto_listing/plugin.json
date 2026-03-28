@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.ec_product_auto_listing",
+  "plugin_name": "商品自动上下架",
+  "plugin_type": "skill",
+  "description": "多平台电商商品定时上下架、库存为0自动下架、活动结束自动恢复，支持淘宝/京东/拼多多/抖音",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ecommerce",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "商品",
+    "上下架",
+    "定时",
+    "库存",
+    "电商"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "电商自动化"
+  ]
+}

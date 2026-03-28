@@ -1,0 +1,21 @@
+{
+  "name": "copywriter_ai",
+  "version": "2.0.0",
+  "description": "AI文案：广告语、朋友圈文案、产品介绍、邮件模板、报价单模板生成",
+  "author": "WanClaw",
+  "category": "ai",
+  "keywords": [
+    "ai",
+    "文案",
+    "生成",
+    "ai"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [],
+  "permissions": [],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

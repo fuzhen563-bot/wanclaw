@@ -1,0 +1,26 @@
+{
+  "name": "office_pdf_watermark",
+  "version": "2.0.0",
+  "description": "批量给PDF添加文字/图片水印，或批量去除水印，支持自定义透明度、位置、旋转角度",
+  "author": "WanClaw",
+  "category": "office",
+  "keywords": [
+    "PDF",
+    "水印",
+    "批量",
+    "办公"
+  ],
+  "entry_point": "main.py",
+  "dependencies": [
+    "PyPDF2"
+  ],
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "platforms": [
+    "all"
+  ],
+  "is_official": true,
+  "wanclaw_version": ">=2.0.0"
+}

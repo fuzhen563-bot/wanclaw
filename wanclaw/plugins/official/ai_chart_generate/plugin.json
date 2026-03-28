@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ai_chart_generate",
+  "plugin_name": "图表自动生成",
+  "plugin_type": "skill",
+  "description": "输入数据或描述，自动推荐最佳图表类型，生成可编辑的图表，支持 PNG/SVG/Excel",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "图表",
+    "可视化",
+    "自动生成",
+    "AI"
+  ],
+  "level": "beginner",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

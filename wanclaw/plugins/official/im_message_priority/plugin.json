@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.im_message_priority",
+  "plugin_name": "客户消息智能分级",
+  "plugin_type": "skill",
+  "description": "基于消息内容和客户画像自动分级（紧急/重要/普通），优先推送高价值客户消息",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "im",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database"
+  ],
+  "keywords": [
+    "消息分级",
+    "优先级",
+    "客户分层",
+    "私域"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "IM智能客服"
+  ]
+}

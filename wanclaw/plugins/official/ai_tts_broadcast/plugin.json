@@ -1,0 +1,34 @@
+{
+  "plugin_id": "wanclaw.ai_tts_broadcast",
+  "plugin_name": "语音合成播报",
+  "plugin_type": "skill",
+  "description": "文字转语音播报，支持多种音色、语速调节，可用于通知播报、客服录音",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "TTS",
+    "语音合成",
+    "播报",
+    "语音",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

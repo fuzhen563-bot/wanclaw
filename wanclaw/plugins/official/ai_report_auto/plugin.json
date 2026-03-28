@@ -1,0 +1,36 @@
+{
+  "plugin_id": "wanclaw.ai_report_auto",
+  "plugin_name": "AI自动生成经营报告",
+  "plugin_type": "skill",
+  "description": "自动汇总订单、客服、销售数据，生成日报/周报/月报，支持导出Word/PDF",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "database",
+    "filesystem:write"
+  ],
+  "keywords": [
+    "报告",
+    "日报",
+    "周报",
+    "AI生成",
+    "数据分析"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

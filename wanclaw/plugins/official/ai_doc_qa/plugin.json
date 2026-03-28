@@ -1,0 +1,35 @@
+{
+  "plugin_id": "wanclaw.ai_doc_qa",
+  "plugin_name": "文档智能问答",
+  "plugin_type": "skill",
+  "description": "上传 PDF/Word/Excel 后，直接用自然语言提问，AI 从文档中找出答案并标注来源",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "ai",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network",
+    "filesystem:read"
+  ],
+  "keywords": [
+    "文档问答",
+    "PDF",
+    "Word",
+    "问答",
+    "AI"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "AI增强"
+  ]
+}

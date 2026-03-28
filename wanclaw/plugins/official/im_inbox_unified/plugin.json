@@ -1,0 +1,33 @@
+{
+  "plugin_id": "wanclaw.im_inbox_unified",
+  "plugin_name": "多平台消息统一收件箱",
+  "plugin_type": "skill",
+  "description": "聚合企业微信/钉钉/飞书/Telegram等消息，统一展示、回复、检索，支持会话合并",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "im",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [
+    "network"
+  ],
+  "keywords": [
+    "统一收件箱",
+    "多平台",
+    "消息聚合",
+    "IM"
+  ],
+  "level": "advanced",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "IM智能客服"
+  ]
+}

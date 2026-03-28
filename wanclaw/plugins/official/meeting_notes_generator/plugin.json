@@ -1,0 +1,30 @@
+{
+  "plugin_id": "skill.meeting_notes_generator",
+  "plugin_name": "会议纪要生成",
+  "plugin_type": "skill",
+  "description": "会议纪要：根据会议内容自动生成结构化会议纪要、待办事项",
+  "author": "WanClaw",
+  "version": "2.0.0",
+  "category": "management",
+  "compatible_wanclaw_version": ">=2.0.0",
+  "entry_file": "main.py",
+  "permissions": [],
+  "keywords": [
+    "会议",
+    "纪要",
+    "management"
+  ],
+  "level": "intermediate",
+  "is_official": true,
+  "dependencies": [],
+  "marketplace": "clawhub",
+  "download_count": 0,
+  "rating": 5.0,
+  "rating_count": 0,
+  "review_status": "approved",
+  "tags": [
+    "官方",
+    "内置",
+    "management"
+  ]
+}

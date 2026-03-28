@@ -1,0 +1,40 @@
+# WanClaw - Development Dockerfile
+FROM python:3.10-slim
+
+# Set environment variables
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    g++ \
+    git \
+    curl \
+    wget \
+    vim \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install debugpy for debugging
+RUN pip install --no-cache-dir debugpy
+
+# Create and set working directory
+WORKDIR /app
+
+# Copy requirements first for better caching
+COPY ./wanclaw/backend/im_adapter/requirements.txt /app/requirements.txt
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r /app/requirements.txt && \
+    pip install --no-cache-dir psutil openpyxl aiofiles
+
+# Create non-root user
+RUN useradd -m -u 1000 wanclaw && \
+    chown -R wanclaw:wanclaw /app
+
+USER wanclaw
+
+# Default command (will be overridden by docker-compose)
+CMD ["python", "-m", "wanclaw.backend.im_adapter.main"]

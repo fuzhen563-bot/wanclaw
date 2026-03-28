@@ -1,0 +1,74 @@
+# WanClaw 日志配置
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  detailed:
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    datefmt: "%Y-%m-%d %H:%M:%S"
+  simple:
+    format: "%(levelname)s - %(message)s"
+
+handlers:
+  console:
+    class: "logging.StreamHandler"
+    level: "INFO"
+    formatter: "simple"
+    stream: "ext://sys.stdout"
+  
+  file:
+    class: "logging.handlers.RotatingFileHandler"
+    level: "DEBUG"
+    formatter: "detailed"
+    filename: "logs/wanclaw.log"
+    maxBytes: 10485760  # 10MB
+    backupCount: 5
+    encoding: "utf-8"
+  
+  error_file:
+    class: "logging.handlers.RotatingFileHandler"
+    level: "WARNING"
+    formatter: "detailed"
+    filename: "logs/wanclaw_error.log"
+    maxBytes: 5242880  # 5MB
+    backupCount: 3
+    encoding: "utf-8"
+  
+  metrics_file:
+    class: "logging.handlers.RotatingFileHandler"
+    level: "INFO"
+    formatter: "simple"
+    filename: "logs/metrics.log"
+    maxBytes: 5242880  # 5MB
+    backupCount: 2
+    encoding: "utf-8"
+
+loggers:
+  wanclaw:
+    level: "DEBUG"
+    handlers: ["console", "file", "error_file"]
+    propagate: false
+  
+  wanclaw.metrics:
+    level: "INFO"
+    handlers: ["metrics_file"]
+    propagate: false
+  
+  wanclaw.security:
+    level: "WARNING"
+    handlers: ["console", "error_file"]
+    propagate: false
+  
+  wanclaw.skills:
+    level: "INFO"
+    handlers: ["console", "file"]
+    propagate: false
+  
+  wanclaw.adapters:
+    level: "INFO"
+    handlers: ["console", "file"]
+    propagate: false
+
+root:
+  level: "WARNING"
+  handlers: ["console"]

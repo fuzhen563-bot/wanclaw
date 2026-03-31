@@ -475,7 +475,7 @@ A: 编辑 `wanclaw/backend/main.py` 中的 `uvicorn.run(app, host="0.0.0.0", por
 
 ---
 **核心开发人员**
--xinghe
--qianlan
+- xinghe
+- qianlan
 ---
 **版权所有 © 2026 厦门亦梓科技有限公司 / 厦门万跃科技有限公司**

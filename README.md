@@ -474,5 +474,8 @@ A: IM Adapter 是独立服务，需要单独启动。参考 `im_adapter/main.py`
 A: 编辑 `wanclaw/backend/main.py` 中的 `uvicorn.run(app, host="0.0.0.0", port=40710)`。
 
 ---
-
-**版权所有 © 2025-2026 厦门亦梓科技有限公司 / 厦门万跃科技有限公司**
+**核心开发人员 
+-xinghe
+-qianlan**
+---
+**版权所有 © 2026 厦门亦梓科技有限公司 / 厦门万跃科技有限公司**
